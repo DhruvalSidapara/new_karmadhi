@@ -1,0 +1,838 @@
+.ourFamilyMainbox .MainContentBox {
+    width: 100%;
+    height: 400px;
+    background-image: url(../../img/bg/teamImg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+    padding: 20px;
+    position: relative;
+}
+
+.ourFamilyMainbox .rowContent .row .col-xl-3 {
+    padding-bottom: 60px;
+}
+
+.ourFamilyMainbox .MainContentBox .NameBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* left: 8%; */
+    width: calc(100% - 41px);
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: absolute;
+    bottom: -30px;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 6px 5px 16px 0px rgb(0 0 0 / 15%);
+}
+
+.ourFamilyMainbox .MainContentBox .NameBox .name a {
+    text-decoration: none;
+    color: #202020;
+    transition: all 0.3s ease-in-out;
+}
+
+.ourFamilyMainbox .MainContentBox .NameBox .name a:hover {
+    color: #1ab999;
+}
+
+.ourFamilyMainbox .MainContentBox .NameBox .name h2 {
+    font-size: 20px;
+    font-weight: 600;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 5px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+.ourFamilyMainbox .MainContentBox .NameBox .name p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #989898;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ourFamilyMainbox .MainContentBox .NameBox .sliders {
+    object-fit: cover;
+}
+
+.ourFamilyMainbox .MainContentBox:hover .NameBox {
+    transform: translateY(-50px)
+}
+
+.SingleBoxContainer {
+    margin-top: 50px !important;
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    min-height: 640px;
+    position: relative;
+    display: flex;
+    border-radius: 10px;
+    padding: 0px 100px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    box-shadow: 6px 5px 30px 0px rgb(0 0 0 / 12%);
+}
+
+
+
+.SingleBoxContainer .SingleImg {
+    margin: 70px 70px 70px 0px;
+}
+
+.SingleBoxContainer .SingleImg .teamImg {
+    max-width: 470px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.SingleBoxContainer .singleInfoWraper {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.SingleBoxContainer .singleInfoWraper .singleTitle {
+    padding: 20px 10% 20px 26%;
+    background-color: #202020;
+    margin-left: -40px;
+    transform: translateX(-15%);
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.SingleBoxContainer .singleInfoWraper .singleTitle h2 {
+    color: #fff;
+    height: 44px;
+    line-height: 44px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 5px !important;
+}
+
+.SingleBoxContainer .singleInfoWraper .singleTitle p {
+    color: #1ab999;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 10px !important;
+}
+
+.SingleBoxContainer .singleInfoWraper .singleInfo {
+    margin-bottom: 10px;
+    height: 33px;
+    line-height: 33px;
+}
+
+.SingleBoxContainer .singleInfoWraper .singleInfo a {
+    text-decoration: none;
+    color: #202020;
+}
+
+.SingleBoxContainer .singleInfoWraper .singleInfo h5 {
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 33px;
+}
+
+.SingleBoxContainer .singleInfoWraper .socialBox {
+    margin-top: 20px;
+}
+
+.SingleBoxContainer .singleInfoWraper .socialBox .socialLink {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 6px 5px 16px 0px rgb(0 0 0 / 15%);
+    text-align: center;
+    line-height: 40px;
+    margin-right: 12px;
+}
+
+.SingleBoxContainer .singleInfoWraper .socialBox .socialLink:last-child {
+    margin-right: 0px;
+}
+
+.SingleBoxContainer .singleInfoWraper .socialBox .socialLink .socialImg {
+    width: 18px;
+    height: 18px;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.SingleBoxContainer .singleInfoWraper .socialBox .socialLink .socialImg:hover {
+    filter: grayscale(0);
+}
+
+.singleContentBox {
+    margin-top: 50px;
+}
+
+.singleContentBox .singleContentTitle,
+.careerBox .singleContentTitle {
+    max-width: 600px;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+
+.singleContentBox .singleContentTitle h2,
+.careerBox .singleContentTitle h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.singleContentBox .singleDetails {
+    min-height: 170px;
+    height: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.singleContentBox .singleDetails p {
+    font-size: 16px;
+    margin-bottom: 20px !important;
+    color: #616161;
+    font-weight: 400;
+}
+
+.professionalContent .singleContentTitle h2 {
+    font-size: 30px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+}
+
+.professionalContent .progressTitle span {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.professionalContent .mainProgress {
+    padding-bottom: 11px;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 11px;
+}
+
+.professionalContent .mainProgress .progress {
+    height: 4px;
+    border-radius: 50px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.professionalContent .mainProgress .progress .progress-bar {
+    border-radius: 50px;
+    background-color: #1ab999;
+}
+
+.professionalContent .progressBarContent {
+    margin-bottom: 11px;
+    margin-top: 20px;
+}
+
+.earlyBox .earlyTitle {
+    height: 36px;
+    margin-bottom: 20px;
+}
+
+.earlyBox .earlyTitle h2 {
+    line-height: 36px;
+}
+
+.earlyBox .earlyDetails {
+    height: 200px;
+    overflow: hidden;
+}
+
+.earlyBox .earlyDetails p {
+    margin-bottom: 20px !important;
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+}
+
+.careerBox {
+    margin-top: 50px;
+}
+
+.careerBox .CareerDetails {
+    height: 90px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.careerBox .CareerDetails p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #616161;
+    line-height: 30px;
+}
+
+@media (min-width:320px) and (max-width:680px) {
+    .SingleBoxContainer {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 20px 10px;
+    }
+
+    .SingleBoxContainer .SingleImg {
+        margin: 0px 0px 0px 0px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle {
+        transform: translateX(0px);
+        padding: 20px;
+        margin-left: 0px;
+        background-color: #1ab999;
+        max-width: 450px;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle h2 {
+        font-size: 25px;
+        height: 30px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle p {
+        margin-bottom: 0px !important;
+        font-weight: 400;
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .SingleBoxContainer .singleInfoWraper {
+        margin-top: 30px;
+    }
+
+    .SingleBoxContainer .SingleImg .teamImg {
+        height: auto;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleInfo h5 {
+        font-size: 16px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleInfo span {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleInfo {
+        height: 30px;
+        line-height: 30px;
+        justify-content: center;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .socialBox {
+        justify-content: center !important;
+    }
+
+    .singleContentBox .singleContentTitle h2,
+    .careerBox .singleContentTitle h2 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .singleContentBox .singleContentTitle,
+    .careerBox .singleContentTitle {
+        height: 30px;
+    }
+
+    .singleContentBox .singleDetails p {
+        font-size: 14px;
+    }
+
+    .singleContentBox .singleDetails {
+        min-height: 108px;
+        height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+    .professionalContent .singleContentTitle h2,
+    .earlyBox .earlyTitle h2 {
+        font-size: 22px;
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .earlyBox {
+        margin-top: 40px;
+    }
+
+    .earlyBox .earlyTitle {
+        height: 28px;
+        line-height: 28px;
+    }
+
+    .earlyBox .earlyDetails p {
+        font-size: 14px;
+        margin-bottom: 5px !important;
+    }
+
+    .earlyBox .earlyDetails {
+        height: 155px;
+    }
+
+    .careerBox .CareerDetails {
+        margin-top: 20px;
+        height: 80px;
+    }
+
+    .careerBox .CareerDetails p {
+        font-size: 14px;
+        line-height: 26px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name h2 {
+        font-size: 16px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+
+@media (min-width:681px) and (max-width:768px) {
+    .SingleBoxContainer {
+        flex-wrap: wrap;
+        padding: 50px 100px;
+    }
+
+    .SingleBoxContainer .SingleImg {
+        margin: 0px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle {
+        margin-left: 0px;
+        transform: translateX(0px);
+        padding: 20px;
+    }
+
+    .SingleBoxContainer .SingleImg .teamImg {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .socialBox {
+        justify-content: center;
+
+    }
+
+    .SingleBoxContainer .singleInfoWraper {
+        margin-top: 40px;
+    }
+
+    .singleContentBox .singleDetails {
+        min-height: 150px;
+        height: 150px;
+
+    }
+
+    .singleContentBox .singleDetails p {
+        font-size: 14px;
+    }
+
+    .singleContentBox .singleContentTitle h2,
+    .careerBox .singleContentTitle h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .singleContentBox {
+        margin-bottom: 30px;
+    }
+
+    .professionalContent .singleContentTitle h2,
+    .earlyBox .earlyTitle h2 {
+        font-size: 22px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .earlyBox .earlyTitle {
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .earlyBox .earlyDetails {
+        height: 177px;
+    }
+
+    .earlyBox .earlyDetails p {
+        font-size: 14px;
+        margin-bottom: 8px !important;
+    }
+
+    .careerBox .CareerDetails {
+        margin-top: 20px;
+    }
+
+    .careerBox .CareerDetails p {
+        font-size: 14px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle h2 {
+        font-size: 30px;
+        font-weight: 500;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle p {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name h2 {
+        font-size: 16px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .sliders {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width:320px) and (max-width:688px) {
+    .ourFamilyMainbox .MainContentBox .NameBox .name h2 {
+        font-size: 16px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .sliders {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media (min-width:689px) and (max-width:800px) {
+    .ourFamilyMainbox .MainContentBox .NameBox .name h2 {
+        font-size: 16px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .sliders {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 22px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .SingleBoxContainer {
+        padding: 0px 50px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle h2 {
+        font-size: 30px;
+        font-weight: 500;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .singleContentBox .singleContentTitle h2,
+    .careerBox .singleContentTitle h2 {
+        font-size: 32px;
+        font-weight: 600;
+        height: 36px;
+        line-height: 36px;
+    }
+
+    .singleContentBox .singleDetails {
+        height: 140px;
+        min-height: 140px;
+    }
+
+    .singleContentBox .singleDetails p {
+        font-size: 14px;
+        margin-bottom: 10px !important;
+    }
+
+    .professionalContent .singleContentTitle h2 {
+        font-size: 30px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .earlyBox .earlyTitle h2 {
+        font-size: 30px;
+    }
+
+    .earlyBox .earlyDetails {
+        height: 170px;
+    }
+
+    .earlyBox .earlyDetails p {
+        font-size: 14px;
+    }
+
+    .careerBox .CareerDetails p {
+        font-size: 14px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle p {
+        font-weight: 500;
+        margin-bottom: 0px !important;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name h2 {
+        font-size: 16px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .name p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox .sliders {
+        width: 25px;
+        height: 25px;
+        margin-top: 10px;
+        margin-left: 16px;
+    }
+
+    .ourFamilyMainbox .MainContentBox .NameBox {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .SingleBoxContainer {
+        padding: 0px 40px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle h2 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .singleContentBox .singleContentTitle,
+    .careerBox .singleContentTitle {
+        height: 33px;
+    }
+
+    .singleContentBox .singleContentTitle h2,
+    .careerBox .singleContentTitle h2 {
+        font-size: 32px;
+        font-weight: 500;
+        line-height: 33px;
+    }
+
+    .singleContentBox .singleDetails {
+        min-height: 140px;
+        height: 140px;
+    }
+
+    .singleContentBox .singleDetails p {
+        font-size: 14px;
+        margin-bottom: 15px !important;
+    }
+
+    .professionalContent .singleContentTitle h2 {
+        font-size: 25px;
+        height: 32px;
+        line-height: 32px;
+    }
+
+    .earlyBox .earlyTitle h2 {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .earlyBox .earlyTitle {
+        height: 32px;
+    }
+
+    .earlyBox .earlyDetails {
+        height: 175px;
+    }
+
+    .earlyBox .earlyDetails p {
+        font-size: 14px;
+        margin-bottom: 6px !important;
+    }
+
+    .careerBox .CareerDetails {
+        height: 70px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .careerBox .CareerDetails p {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle p {
+        margin-bottom: 0px !important;
+        font-weight: 500;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+
+    .singleContentBox,
+    .Rowcontent,
+    .careerBox {
+        max-width: 1170px;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px !important;
+    }
+
+    .earlyBox .earlyDetails {
+        height: 190px;
+    }
+
+    .singleContentBox .singleDetails p,
+    .earlyBox .earlyDetails p,
+    .careerBox .CareerDetails p {
+        font-size: 14px;
+    }
+
+    .singleContentBox .singleDetails {
+        min-height: 130px;
+        height: 130px;
+    }
+
+
+}
+
+@media (min-width:1281px) and (max-width:1460px) {
+
+    .singleContentBox,
+    .Rowcontent,
+    .careerBox {
+        max-width: 1170px;
+        width: 100%;
+        margin: auto;
+        margin-top: 50px !important;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle h2,
+    .SingleBoxContainer .singleInfoWraper .singleTitle p {
+        font-weight: 500;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle p {
+        margin-bottom: 0px !important;
+    }
+
+    .SingleBoxContainer .singleInfoWraper .singleTitle {
+        margin-left: 0px;
+        transform: translate(0px);
+        padding: 20px 50px;
+    }
+
+    .earlyBox .earlyDetails {
+        height: 175px;
+    }
+
+    .earlyBox .earlyDetails p {
+        font-size: 14px;
+        margin-bottom: 12px !important;
+    }
+
+    .careerBox .CareerDetails p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .careerBox .CareerDetails {
+        height: 60px;
+
+    }
+
+    .singleContentBox .singleDetails {
+        min-height: 125px;
+        height: 125px;
+    }
+
+    .singleContentBox .singleDetails p {
+        font-size: 14px;
+    }
+
+    .singleContentBox .singleDetails p:last-child {
+        margin-bottom: 0px !important;
+    }
+}

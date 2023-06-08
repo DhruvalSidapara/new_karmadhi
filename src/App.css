@@ -1,0 +1,4721 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+label {
+    margin-bottom: 0px !important;
+}
+
+/* .bg-black {
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+} */
+
+::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #FFFFFF;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1ab999;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.modal {
+    z-index: 1111 !important;
+}
+
+/* ========  Container CSS Start  ======== */
+
+.CustomContainer {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1680px !important;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.smallContainer {
+    max-width: 1160px;
+    width: 100%;
+
+}
+
+
+
+/* ========  Container CSS End  ======== */
+
+
+/*  <========  HomePage CSS Start  ========>  */
+
+
+
+.Sliderbg {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.SliderTwo {
+    top: 241px;
+    left: 0px;
+    z-index: 111;
+    width: 100%;
+}
+
+.SliderTwo .HomeMainSlider {
+    max-width: 370px;
+    width: 100%;
+}
+
+.SliderTwo .HomeMainSlider .slick-track {
+    min-height: 598px;
+    height: 598px !important;
+}
+
+.SliderTwo .SliderInnerContent {
+    padding: 16px 35px;
+
+}
+
+.SliderTwo .SliderInnerContent h3,
+.NewTechSlider .NewPostHighLightContent h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.SliderTwo .SliderInnerContent p {
+    max-width: 310px;
+    width: 100%;
+    height: 54px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F4F4F4;
+    overflow: hidden;
+}
+
+.SliderTwo .HomeMainSlider .slick-list {
+    height: 70%;
+}
+
+.HomeMainSlider .slick-current {
+    background: rgba(0, 0, 75, 0.4);
+    border-radius: 4px;
+    border-left: 4px solid #1ab999 !important;
+}
+
+.mainHomeContent .bgimg {
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.mainHomeContent .sliderbgimg {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+.HomeMainSlider .slick-prev {
+    top: -49px;
+    left: 169px;
+    transform: rotate(90deg);
+}
+
+.HomeMainSlider .slick-next {
+    top: auto !important;
+    bottom: -15px;
+    right: 185px;
+    transform: rotate(90deg);
+}
+
+.HomeMainSlider .slick-prev::before {
+    position: absolute;
+    content: "" !important;
+    background-image: url(./img/icone/chevron-up.svg);
+    width: 27.28px;
+    height: 16.53px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(-90deg);
+}
+
+.HomeMainSlider .slick-next::before {
+    position: absolute;
+    content: "" !important;
+    background-image: url(./img/icone/chevron-up.svg);
+    width: 27.28px;
+    height: 16.53px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(90deg);
+}
+
+/* .typeIndustry .TypeIdustryInner .rowContent .col-lg-4 {
+    margin-bottom: 30px;
+}
+
+
+
+.typeIndustry .TypeIdustryInner .rowContent .col-lg-4:nth-child(4) {
+    margin-bottom: 0px;
+} */
+
+
+.typeIndustry .TypeIdustryInner .rowContent .col-lg-8 .col-lg-6 {
+    margin-top: 30px;
+}
+
+.fixed-custom-header {
+    position: absolute !important;
+    top: 20px;
+    z-index: 1500;
+    width: 100%;
+}
+
+.mainHomeContent .SliderRow {
+    margin-top: 250px;
+}
+
+.mainHomeContent .SliderRow .sliderInnerText {
+    max-width: 565px;
+    width: 100%;
+}
+
+.mainHomeContent .SliderRow .sliderInnerText h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+.mainHomeContent .SliderRow .sliderInnerText p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F4F4F4;
+    height: 80px;
+    line-height: 26px;
+    overflow: hidden;
+}
+
+.mainHomeContent .SliderRow .sliderInnerText button {
+    width: 225px;
+    height: 63px;
+    background-color: #1ab999;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    margin-top: 46px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.mainHomeContent .SliderRow .sliderInnerText button:hover {
+    box-shadow: 0px 0px 12px 2px #1ab999;
+}
+
+.mainHomeContent .LayerBg .layerbgimg {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 99;
+    height: 218px;
+}
+
+.mainHomeContent .LayerBg .layerbgimgtwo {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 99;
+}
+
+.mainHomeContent .slick-slider {
+    height: 100vh;
+}
+
+.jobConversation img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.jobConversation .JobconversationInner {
+    position: absolute;
+    top: 0px;
+    background: #00264d;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+
+.jobConversation .JobConversationTitle {
+    position: absolute;
+    z-index: 2;
+    top: 131px;
+    /* left: 137px; */
+    width: 100%;
+    height: 100px;
+}
+
+.jobConversation .JobConversationTitle h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F9F9F9;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0px 30px;
+}
+
+.jobConversation .JobConversationTitle p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F4F4F4;
+    max-width: 316px;
+    width: 100%;
+    /* height: 48px; */
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 16px !important;
+}
+
+.jobConversation .HoverJobCard {
+    transition: all 0.3s ease-in-out;
+}
+
+.jobConversation .HoverJobCard:hover {
+    transform: scale(1.1);
+    z-index: 111;
+}
+
+
+.NewtechContentbox {
+    padding: 115px 0px 115px 0px;
+}
+
+.OurServiceContentbox {
+    padding: 125px 0px 125px 0px;
+}
+
+.NewtechContentbox .NewTechInnerctn .NewTechTitleandContent h3,
+.OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent h3 {
+    max-width: 212px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+    text-align: end;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 8px !important;
+    color: #1ab999;
+}
+
+.OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent h3 {
+    max-width: fit-content;
+    width: 100%;
+}
+
+.NewtechContentbox .NewTechInnerctn .NewTechTitleandContent h3::before {
+    position: absolute;
+    content: "";
+    width: 46px;
+    height: 2px;
+    left: 0px;
+    background-color: #1ab999;
+    top: 18px;
+}
+
+.NewtechContentbox .NewTechInnerctn .NewTechTitleandContent h2,
+.OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    max-width: 656px;
+    width: 100%;
+    height: 100px;
+    line-height: 40px;
+    color: #202020;
+    margin-bottom: 10px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.NewtechContentbox .NewTechInnerctn .NewTechTitleandContent p,
+.OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent p {
+    max-width: 672px;
+    width: 100%;
+    height: 96px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #202020;
+    margin-bottom: 10px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.NewtechContentbox .NewTechInnerctn .NewTechTitleandContent p span,
+.OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent p span {
+    color: #1ab999;
+}
+
+.NewtechContentbox .NewTechInnerctn .NewTechTitleandContent button,
+.OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent button {
+    padding: 10px 25px;
+    background: #1ab999;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: none;
+    color: #FFFFFF;
+    text-decoration: none !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.NewtechContentbox .NewTechSlider,
+.OurServiceContentbox .NewTechSlider {
+    width: 764px;
+    height: 422px;
+    margin: 0 auto;
+}
+
+.NewTechSlider .slick-slider .slick-list {
+    /* height: 422px; */
+    border-radius: 12px;
+}
+
+.NewtechContentbox .NewTechSlider .sliderContent img,
+.OurServiceContentbox .NewTechSlider .sliderContent img {
+    width: 100%;
+    height: 422px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.NewtechContentbox .slick-prev,
+.OurServiceContentbox .slick-prev {
+    left: -40px;
+}
+
+.NewtechContentbox .slick-next,
+.OurServiceContentbox .slick-next {
+    right: -40px;
+}
+
+.NewtechContentbox .slick-prev:before,
+.OurServiceContentbox .slick-prev::before {
+    content: "";
+    position: absolute;
+    background-image: url(./img/icone/SliderArrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 16px;
+    height: 16px;
+    top: 3px;
+    right: 3px;
+}
+
+.NewtechContentbox .slick-next:before,
+.OurServiceContentbox .slick-next::before {
+    content: "";
+    position: absolute;
+    background-image: url(./img/icone/SliderArrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: rotate(-180deg);
+    width: 16px;
+    height: 16px;
+    top: 3px;
+    left: 3px;
+}
+
+.NewTechSlider .sliderContent .imgLayer {
+    position: absolute;
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.NewTechSlider .NewPostHighLightContent {
+    position: absolute;
+    z-index: 2;
+    top: 285px;
+    left: 59px;
+    max-width: 245px;
+    width: 100%;
+}
+
+.NewTechSlider .NewPostHighLightContent h2 {
+    margin: 4px 0px 4px 0px !important;
+}
+
+.NewTechSlider .NewPostHighLightContent p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.sliderLogo {
+    background: #fcfcfc;
+}
+
+.sliderLogo .SliderLogoContent {
+    padding: 93px 0px 93px 0px;
+    text-align: center;
+}
+
+.sliderLogo .SliderLogoContent .sliderLogoTitle {
+
+    width: 100%;
+    margin: auto;
+    height: 96px;
+    overflow: hidden;
+    margin-bottom: 71px;
+}
+
+.sliderLogo .SliderLogoContent h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+    color: #1ab999;
+    margin-bottom: 8px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+}
+
+.sliderLogo .SliderLogoContent h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    height: 52px;
+    line-height: 52px;
+    color: #202020;
+
+}
+
+.sliderLogo .logoinnerSlider .slick-slider .slick-list {
+    height: auto;
+}
+
+.sliderLogo .logoinnerSlider .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 10px 15px;
+}
+
+
+.sliderLogo .logoinnerSlider .sliderinnerImg {
+    max-width: 288px;
+    width: 100%;
+}
+
+.sliderLogo .logoinnerSlider .sliderinnerImg img {
+    width: 70%;
+    /* height: 75px; */
+    /* filter: grayscale(100%); */
+    margin: 0 auto;
+    border-radius: 12px;
+    transition: all 0.3s ease-in-out;
+}
+
+.logoinnerSlider .slick-track {
+    display: flex !important;
+    align-items: center;
+}
+
+.sliderLogo .logoinnerSlider .sliderinnerImg img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
+}
+
+.OurProjectContent {
+    /* background-image: url(./img/bg/projectbg.jpg); */
+    background-repeat: no-repeat;
+    background: #2c3e50;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.OurProjectContent .projectLayer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(180deg, #000032 0%, #00264d 100%); */
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+}
+
+.OurProjectContent .OurProjectInnerctn {
+    padding: 91px 0px 107px 0px;
+}
+
+.OurProjectContent .OurSoftwareInnerctn {
+    padding: 100px 0px 100px 92px;
+}
+
+.OurProjectContent .OurSoftwareInnerctn .slick-list {
+    height: 370px;
+}
+
+.OurProjectContent .OurProjectInnerctn .ourProjectInnerTitle h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #1ab999;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 16px !important;
+}
+
+.OurProjectContent .OurSoftwareInnerctn .ourProjectInnerTitle h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+    color: #1ab999;
+    letter-spacing: 0.15em;
+    margin-bottom: 8px !important;
+}
+
+
+.OurProjectContent .OurSoftwareInnerctn .ourProjectInnerTitle p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    height: 48px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 68px !important;
+}
+
+.OurProjectContent .OurProjectInnerctn .ourProjectInnerTitle p {
+    max-width: 672px;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 20px !important;
+}
+
+.OurProjectContent .OurProjectInnerctn .ourProjectInnerTitle button {
+    padding: 10px 25px;
+
+    background-color: #1ab999;
+    border-radius: 100px;
+    color: #FFFFFF;
+    border: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+
+/* .OurProjectContent .OurProjectInnerctn .ProjectSliderBox .position-relative:hover .HoverMainBox {
+    opacity: 0;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .position-relative:hover .sliderHover {
+    opacity: 1;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .sliderContent .HoverMainBox {
+    position: absolute;
+    width: 100%;
+    height: 172px;
+    top: auto;
+    bottom: 0px;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .sliderContent .HoverMainBox .hoverTitle {
+    position: relative;
+    top: 50px;
+    z-index: 1;
+    padding-left: 50px;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .sliderContent .HoverMainBox .hoverTitle h2 {
+    color: #1ab999;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .sliderContent .HoverMainBox .hoverTitle p {
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .sliderContent .HoverMainBox::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #00264d;
+    opacity: 0.5;
+    border-radius: 0px 0px 12px 12px;
+    top: auto;
+    bottom: 0px;
+} */
+
+.OurProjectContent .OurSoftwareInnerctn .ProjectSliderBox .projectSliderImgbox img {
+    height: 100%;
+    border-radius: 12px;
+}
+
+.OurProjectContent .OurSoftwareInnerctn .ProjectSliderBox .projectSliderImgbox .ourProjectSupporter {
+    top: 198px;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .projectSliderImgbox .ourProjectSupporter {
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .projectSliderImgbox .ourProjectSupporter p {
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .projectSliderImgbox .ourProjectSupporter p span,
+.OurProjectContent .projectSliderImgbox .projectOverlay h3 .hoverProjecttitle {
+    color: #FFFFFF;
+    letter-spacing: 0px;
+    text-transform: none;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .projectSliderImgbox {
+    max-width: 764px;
+    width: 100% !important;
+    height: 422px;
+    position: relative;
+}
+
+.OurProjectContent .OurProjectInnerctn .ProjectSliderBox .projectSliderImgbox .ProjectSliderLayer {
+    position: absolute;
+    background: #00264d;
+    opacity: 0.5;
+    border-radius: 0px 0px 12px 12px;
+    width: 764px;
+    height: 172px;
+    bottom: 0px;
+}
+
+.OurSoftwareInnerctn .ProjectSliderBox .projectSliderImgbox .projectOverlay .overlayBg {
+    position: absolute;
+    top: 0px;
+    background: #00264d;
+    opacity: 0;
+    border-radius: 12px;
+    height: 370px;
+    width: 764px;
+    transition: all 0.5s ease-in;
+    padding: 55px;
+}
+
+.ProjectSliderBox .projectSliderImgbox .projectOverlay .overlayBg {
+    position: absolute;
+    top: 0px;
+    background-image: url(./img/bg/bglayer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0;
+    border-radius: 12px;
+    height: 422px;
+    width: 100%;
+    max-width: 764px;
+    transition: all 0.5s ease-in;
+    padding: 52px 62px 52px 55px;
+}
+
+
+.ProjectSliderBox .projectSliderImgbox .projectOverlay {
+    position: absolute;
+    top: 0px;
+}
+
+.OurProjectContent .projectSliderImgbox:hover .ProjectSliderLayer {
+    opacity: 0;
+}
+
+.OurProjectContent .projectSliderImgbox:hover .projectOverlay .overlayBg {
+    opacity: 1;
+}
+
+.OurProjectContent .projectSliderImgbox .projectOverlay h3 {
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    z-index: 2;
+    margin-bottom: 24px !important;
+}
+
+.OurProjectContent .projectSliderImgbox .projectOverlay .projectHover p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    max-width: 672px;
+    width: 100%;
+    height: 72px;
+    overflow: hidden;
+    margin-bottom: 12px !important;
+}
+
+.OurProjectContent .projectSliderImgbox .projectOverlay .projectHover .hoverHase {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1ab999;
+}
+
+.OurProjectContent .projectSliderImgbox .projectOverlay .projectHover .projectHoverBtn {
+    margin-top: 50px;
+}
+
+.OurProjectContent .projectSliderImgbox .projectOverlay .projectHover .projectHoverBtn button {
+    width: 213px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    background: #1ab999;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.typeIndustry .TypeIdustryInner {
+    padding: 155px 0px 155px 0px;
+}
+
+
+
+
+
+.typeIndustry .TypeIdustryInner .TypeIndustryInnerContent h3 {
+    text-align: center;
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    height: 36px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 10px !important;
+}
+
+.typeIndustry .TypeIdustryInner .TypeIndustryInnerContent .viewContent {
+    margin-bottom: 60px;
+}
+
+.typeIndustry .TypeIdustryInner .TypeIndustryInnerContent .viewContent p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #303030;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 830px;
+    width: 100%;
+}
+
+.typeIndustry .TypeIdustryInner .TypeIndustryInnerContent .viewContent button {
+    width: 105px;
+    height: 40px;
+    background: transparent;
+    color: #202020;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    transition: all 0.3s ease-in;
+}
+
+.typeIndustry .TypeIdustryInner .TypeIndustryInnerContent .viewContent button:hover {
+    background: #1ab999;
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird {
+    transition: all 0.3s ease-in-out;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird:hover {
+    transform: scale(1.1);
+}
+
+.typeIndustry .TypeIdustryInner .industryGird.elearning,
+.typeIndustry .TypeIdustryInner .industryGird.telecom,
+.typeIndustry .TypeIdustryInner .industryGird.ecommerce,
+.typeIndustry .TypeIdustryInner .industryGird.fintech,
+.typeIndustry .TypeIdustryInner .industryGird.gameing,
+.typeIndustry .TypeIdustryInner .industryGird.recruitment {
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 3px 8px;
+    border-left: 4px solid #1ab999;
+    /* border-bottom: 2px solid #   1ab999; */
+}
+
+
+.typeIndustry .TypeIdustryInner .industryGird {
+    position: relative;
+    display: flex;
+    max-width: 416px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .TitleContentBox {
+    padding-left: 39px;
+    max-width: 312px;
+    z-index: 12;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .TitleContentBox .tittleContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .TitleContentBox .tittleContent .vectorImg {
+    min-width: 12px;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .TitleContentBox .details {
+    margin-top: 10px;
+    height: 72px;
+    overflow: hidden;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .TitleContentBox h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    width: 100%;
+    color: #1ab999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .TitleContentBox h1 a img {}
+
+.typeIndustry .TypeIdustryInner .industryGird .TitleContentBox .details p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #303030;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .IndustryInnerEffect {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px 0px 40px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    top: auto;
+    bottom: 50px;
+}
+
+
+.industryGird .IndustryEffectContent .IndustryInnerEffect h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    max-width: 312px;
+    height: 36px;
+}
+
+.industryGird .IndustryEffectContent .industryBg {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #00264d;
+    opacity: 0.3;
+    border-radius: 12px;
+}
+
+.typeIndustry .TypeIdustryInner .industryGird .logoImg {
+    min-width: 40px;
+    height: 40px;
+    width: 100%;
+    /* border-radius: 12px; */
+}
+
+.typeIndustry .TypeIdustryInner .industryGird.secGrid {
+    margin-top: 85px;
+}
+
+
+.typeIndustry .TypeIdustryInner .IndustryRow {
+    padding-top: 34px;
+}
+
+.typeIndustry .TypeIdustryInner .IdustryZoeEffect {
+    position: relative;
+}
+
+.useSoftwareSlider {
+    padding: 79px 53px 79px 53px;
+    background: #FCFCFC;
+}
+
+.useSoftwareSlider .useSoftwareInnerSlider .slick-slider .slick-track .slick-slide {
+    padding: 0px 15px;
+}
+
+
+/*  <========  HomePage CSS End  ========>  */
+.jobConversation {
+    z-index: 999;
+    /* padding: 95px 0px; */
+}
+
+
+/*  OurSevice Banner CSS Start  */
+
+.mainOurServiceBenner {
+    background-image: url(./img/supports3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+.mainOurServiceBenner .OurServiceBanner .mainBenner {
+    position: relative;
+}
+
+.mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer,
+.mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer2 {
+    position: absolute;
+    top: auto;
+    bottom: 0px;
+    z-index: 11;
+    width: 100%;
+}
+
+.OurServiceBanner .Overlayer {
+    position: absolute;
+    background-image: url(./img/bg/overLayerbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.mainOurServiceBenner .OurServiceBanner .overLayerbg {
+    bottom: 0px;
+}
+
+
+
+.mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle {
+    text-align: center;
+    position: absolute;
+    z-index: 12;
+    width: 100%;
+    top: 120px;
+}
+
+
+.mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle h3 {
+    height: auto;
+    line-height: 52px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    color: #FFFFFF;
+    max-width: 1095px;
+    min-width: 220px;
+    width: fit-content;
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: 24px !important;
+}
+
+.mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle h3::after {
+    position: absolute;
+    content: "";
+    width: 46px;
+    height: 2px;
+    background-color: #1ab999;
+    top: 26px;
+    left: -60px;
+}
+
+
+.mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle p {
+    max-width: 959px;
+    height: auto;
+    line-height: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #F4F4F4;
+    margin: 0 auto;
+}
+
+.OverServiceMainTitle,
+.MainSoftWareTesting,
+.mainBlogCtn,
+.excepteurinstmainctn,
+.ourjobMainBox,
+.seniorjavadevmain,
+.OurProjectMain {
+    padding-top: 24px;
+}
+
+.OverServiceMainTitle .mainLinkBox span,
+.MainSoftWareTesting .mainLinkBox span,
+.mainBlogCtn .mainLinkBox span,
+.excepteurinstmainctn .mainLinkBox span,
+.ourjobMainBox .mainLinkBox span,
+.seniorjavadevmain .mainLinkBox span,
+.OurProjectMain .mainLinkBox span,
+.singleprojectview .mainLinkBox span {
+    margin: 0px 24px 0px 24px;
+}
+
+.OverServiceMainTitle .linkBox a,
+.MainSoftWareTesting .linkBox a,
+.mainBlogCtn .mainLinkBox a,
+.excepteurinstmainctn .mainLinkBox a,
+.ourjobMainBox .linkBox a,
+.seniorjavadevmain .linkBox a,
+.OurProjectMain .linkBox a,
+.singleprojectview .mainLinkBox .linkBox a {
+    max-width: fit-content;
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #202020;
+    transition: all 0.3s ease-in-out;
+}
+
+.OverServiceMainTitle .linkBox a:hover,
+.MainSoftWareTesting .linkBox a:hover,
+.mainBlogCtn .mainLinkBox a:hover,
+.excepteurinstmainctn .mainLinkBox a:hover,
+.ourjobMainBox .linkBox a:hover,
+.seniorjavadevmain .linkBox a:hover,
+.OurProjectMain .linkBox a:hover,
+.singleprojectview .mainLinkBox .linkBox a:hover {
+    color: #1ab999;
+}
+
+.singleprojectview .mainLinkBox .linkBox a {
+    color: #FFFFFF;
+}
+
+.OverServiceMainTitle .linkBox .active,
+.MainSoftWareTesting .linkBox .active,
+.mainBlogCtn .linkBox .active,
+.excepteurinstmainctn .linkBox .active,
+.ourjobMainBox .linkBox .active,
+.seniorjavadevmain .linkBox .active,
+.OurProjectMain .linkBox .active,
+.singleprojectview .mainLinkBox .linkBox .active {
+    color: #1ab999;
+    font-weight: 600;
+}
+
+.OverServiceMainTitle .mainOverServiceContent {
+    padding-top: 95px;
+    /* padding-bottom: 125px; */
+}
+
+.OverServiceMainTitle .mainOverServiceContent .secDetailsContent h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1ab999;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 8px !important;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .secDetailsContent p {
+    width: 100%;
+    height: 84px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 42px;
+    overflow: hidden;
+    margin-bottom: 8px !important;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .secDetailsContent span {
+    max-width: 466px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 72px;
+    line-height: 24px;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg {
+    position: relative;
+    transition: all .5s ease-in-out;
+    backface-visibility: hidden;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg img {
+    border-radius: 12px;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverserviceLayer {
+    position: absolute;
+    background: #00264d;
+    opacity: 0.3;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .overServiceDetails {
+    position: absolute;
+    bottom: 32px;
+    left: 32px;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg:hover .overServiceDetails {
+    opacity: 0;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg:hover .OverServiceHover {
+    opacity: 1;
+    transition: all .5s ease-in-out;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover {
+    position: absolute;
+    padding: 46px 32px 32px 32px;
+    width: 100%;
+    top: 0px;
+    opacity: 0;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .OverServiceHoverTitle {
+    padding-bottom: 10px;
+    border-bottom: 4px solid #FFFFFF;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .OverServiceHoverTitle h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 36px;
+    line-height: 36px;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails {
+    margin-top: 32px;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    height: 96px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 22px !important;
+    overflow: hidden;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails span {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    height: 24px;
+    line-height: 24px;
+    color: #1ab999;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceImg .overServiceDetails h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.OverServiceMainTitle .mainOverServiceContent .overServiceSecRow {
+    margin-top: 42px;
+}
+
+
+.OverServiceRowCtn .row>div:first-child,
+.OverServiceRowCtn .row>div:nth-child(1),
+.OverServiceRowCtn .row>div:nth-child(2),
+.OverServiceRowCtn .row>div:nth-child(3) {
+    margin-bottom: 30px;
+}
+
+
+
+.OurServiceForm .mainFormContent {
+    max-width: 1133px;
+    width: 100%;
+    padding: 55px 381px 55px 78px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+
+.OurServiceForm .mainFormContent .serviceFormtitle {
+    margin-bottom: 47px;
+}
+
+.OurServiceForm .mainFormContent .serviceFormtitle h3 {
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 8px !important;
+}
+
+
+.OurServiceForm .mainFormContent .serviceFormtitle p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+    height: 52px;
+    margin-bottom: 8px !important;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling {
+    padding-bottom: 113px;
+}
+
+.OurServiceForm .mainFormContent .serviceFormtitle span,
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userTitle p,
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userContact p,
+.MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .SoftwareDetailsCtn p,
+.MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText p,
+.bolgContentbox .blogtextcontent h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userTitle p,
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userContact p {
+    color: #FFFFFF;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .floating-label input,
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .floating-label input {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #BDBDBD;
+    padding: 14px 0px 14px 33px;
+    border-radius: 5px;
+    border: 1px solid #00264d;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .floating-label input:focus,
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .floating-label input:focus {
+    box-shadow: none;
+    border: 1px solid #1ab999;
+    color: #1ab999;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .floating-label label:focus {
+    color: #1ab999;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .floating-label label,
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .floating-label label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    height: 21px;
+    margin-left: 31px;
+    padding: 0px 6px 0px 6px;
+    background-color: #FFFFFF;
+    color: #BDBDBD;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .floating-label:focus-within label,
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .floating-label:focus-within label {
+    transform: translate(0, -114%) scale(0.6);
+    color: #1ab999;
+
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .floating-label.floatingInput,
+.OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber {
+    margin-bottom: 24px;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .serviceMsg {
+    margin-bottom: 30px;
+    height: auto;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber .floating-label input {
+    width: 330px;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .serviceMsg textarea::placeholder {
+    color: #BDBDBD;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox .serviceMsg textarea,
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .serviceMsg textarea {
+    width: 100%;
+    border: 1px solid #00264d;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 33px;
+    color: #BDBDBD;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.OurServiceForm .mainFormContent .FloatingLabelbox button,
+.contactBg .mainContactus .contactDetails .FloatingLabelbox button {
+    width: 217px;
+    height: 64px;
+    border-radius: 100px;
+    border: none;
+    background-color: #1ab999;
+    color: #FFFFFF;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.OurServiceForm .mainFormContent .OurServiceUserContent {
+    position: absolute;
+    top: 67px;
+    left: 915px;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent img {
+    border-radius: 12px;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .UserLayer {
+    position: absolute;
+    background: #00264d;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    border-radius: 12px;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .UserBack {
+    width: 164px;
+    height: 164px;
+    border-radius: 50%;
+    margin-top: 71px !important;
+    margin: 0 auto;
+    background-color: #1ab999;
+    text-align: center;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .UserBack {
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .UserBack:hover {
+    transform: scale(1.3);
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails img {
+    width: 161px;
+    height: 161px;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userTitle {
+    margin-top: 24px;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userTitle h3 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 2px !important;
+
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userContact {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userContact .phone,
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userContact .email {
+    margin-right: 12px;
+}
+
+.OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .borderCustom {
+    max-width: 405px;
+    width: 100%;
+    height: 2px;
+    margin: 0 auto;
+    background-color: #1ab999;
+    margin-bottom: 24px !important;
+}
+
+.MainSoftWareTesting .mainSoftwareContent {
+    margin-top: 49px;
+    justify-content: space-between;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .softwareImgBox {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .softwareImgBox img {
+    width: 100%;
+    height: 322px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .softwareImgBox .softwareLayer {
+    position: absolute;
+    background: linear-gradient(90deg, rgba(22, 22, 22, 0.8) 0%, rgba(43, 43, 43, 0) 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .SoftwareDetailsCtn {
+    margin-bottom: 80px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .SoftwareDetailsCtn h3,
+.MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #202020;
+    line-height: 48px;
+    height: 48px;
+    margin-bottom: 16px !important;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .SoftwareDetailsCtn p {
+    height: 196px;
+    line-height: 28px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText label {
+    padding-top: 30px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText p {
+    height: 308px;
+    line-height: 30px;
+    overflow: hidden;
+    font-weight: 500;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox {
+    max-width: 380px;
+    width: 100%;
+    position: relative;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox {
+    width: 100%;
+    position: relative;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner,
+.ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner {
+    width: 100%;
+    height: 219px;
+    background-color: #1ab999;
+    border-radius: 8px;
+    padding: 32px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner h3,
+.ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner h3,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    height: 22px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 16px !important;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner p,
+.ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner p,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner p {
+    max-width: 250px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    height: 44px;
+    line-height: 22px;
+    color: #FFFFFF;
+    overflow: hidden;
+
+}
+
+
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner button,
+.ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner button,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner button {
+    width: 177px;
+    height: 49px;
+    background-color: #FFFFFF;
+    margin-top: 24px;
+    border-radius: 100px;
+    border: none;
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s ease-in-out;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner button:hover,
+.ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner button:hover,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner button:hover,
+.ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner button:hover,
+.NewtechContentbox .NewTechInnerctn .NewTechTitleandContent button:hover,
+.OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent button:hover,
+.OurServiceForm .mainFormContent .FloatingLabelbox button:hover,
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .familyjoining button:hover,
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .project-btn:hover,
+.OurProjectContent .OurProjectInnerctn .ourProjectInnerTitle button:hover,
+.contactBg .mainContactus .contactDetails .FloatingLabelbox button:hover,
+.File label:hover,
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner .Contact:hover,
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner .Contact:focus,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner .Contact:hover,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner .Contact:focus {
+    transform: translateY(-0.25em);
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner button:hover,
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner button:focus,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner button:hover,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner button:focus {
+    border: 2px solid #FFFFFF;
+    color: #1ab999;
+}
+
+
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner .Contact img,
+.ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner button img,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner button img {
+    margin-right: 17px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .headset,
+.ourjobMainBox .jobsNeedcard .contactUsBox .headset,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .headset {
+    position: absolute;
+    right: 16px;
+    top: 19px;
+    width: 90px;
+    height: 90px;
+
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox {
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background-color: #1ab999;
+    position: absolute;
+    right: 42px;
+    top: 168px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox img,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox img,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover {
+    width: 273px;
+    padding: 16px 24px 8px 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(157, 157, 157, 0.25);
+    border-radius: 25px 0px 25px 25px;
+    position: absolute;
+    top: 105px;
+    right: 50px;
+    display: none;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .Linkedinblack,
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .skypeblack,
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .Telegram,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .Linkedinblack,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .skypeblack,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .Telegram,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .Linkedinblack,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .skypeblack,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .Telegram {
+    border-radius: 0px;
+    margin-right: 10px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .Telegram,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .Telegram,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .Telegram {
+    margin-right: 0px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .Linkedinblack,
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .skypeblack,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .Linkedinblack,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .skypeblack,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .Linkedinblack,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .skypeblack {
+    width: 16px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .Telegram,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .Telegram,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .Telegram {
+    width: 18px;
+    height: 22px;
+    object-fit: contain;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover h3,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover h3,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    height: 22px;
+    margin-bottom: 3px !important;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .titleP,
+.ourjobMainBox .jobsNeedcard .contactUsBox .floatingBox .FloatingHover .titleP,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .titleP {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    margin-bottom: 8px !important;
+    color: #1ab999;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .floatingHoverInner,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .floatingHoverInner {
+    border-bottom: 1px solid #1ab999;
+
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .hoverContactDetails,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .hoverContactDetails {
+    margin-top: 8px;
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .hoverContactDetails .num,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .hoverContactDetails .num {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    height: 21px;
+    color: #202020;
+    margin-left: 12px;
+
+}
+
+.MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox:hover .FloatingHover,
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox:hover .FloatingHover {
+    display: block;
+    transition: all .5s ease-in-out;
+}
+
+.SoftwareSliderContent {
+    background-image: url(./img/bg/SoftwareSlider.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 730px;
+    padding: 100px 0px 100px 92px;
+    position: relative;
+}
+
+.SoftwareSliderContent .Softwaresliderlayer {
+    background-color: #00264d;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    left: 0px;
+}
+
+.SoftwareSliderContent .softwaresliderTitle {
+    position: relative;
+    margin-bottom: 68px !important;
+    max-width: 796px;
+    width: 100%;
+    margin: auto;
+}
+
+.SoftwareSliderContent .softwaresliderTitle h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    height: 36px;
+    color: #1ab999;
+    margin-bottom: 8px !important;
+    letter-spacing: 0.15em;
+}
+
+.SoftwareSliderContent .softwaresliderTitle p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: capitalize;
+    height: 48px;
+    line-height: 48px;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track,
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track .slick-slide>div {
+    height: 370px;
+}
+
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track .slick-slide {
+    max-width: 764px;
+    width: 764px !important;
+    margin-right: 143px;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img {
+    position: relative;
+    display: block;
+    backface-visibility: hidden;
+    transition: .5s ease-in-out;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .bgleyer {
+    position: absolute;
+    width: 100%;
+    height: 172px;
+    bottom: 0;
+    border-radius: 0px 0px 12px 12px;
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+    opacity: 0.7;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .bgleyer h1 {
+    color: #1ab999;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .bgleyer p {
+    color: #FFFFFF;
+
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img:hover .hoverHidden {
+    opacity: 0;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img:hover .softwareHoverMain {
+    opacity: 0.7;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareSliderTitle {
+    position: absolute;
+    bottom: 48px;
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 55px;
+    height: 76px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareSliderTitle h1,
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg h1,
+.contactBg .mainContactus .contactDetails h1,
+.contactBg .mainContactus .OfficeLocationMain .locationtitle h1,
+.excepteurinstmainctn .taglinebox .teglineText h1 {
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    height: 36px;
+    margin-bottom: 4px !important;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareSliderTitle p,
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    height: 36px;
+    color: #FFFFFF;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 120px;
+    color: #FFFFFF;
+    margin-bottom: 20px !important;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg h2 {
+    margin-bottom: 20px !important;
+}
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg a {
+    text-decoration: none;
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+}
+
+
+
+.SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain {
+    position: absolute;
+    top: 0;
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+    opacity: 0;
+    width: 100%;
+    border-radius: 12px;
+    padding: 55px;
+    transition: all ease-in-out 0.4s;
+}
+
+
+/*  OurSevice Banner CSS End  */
+
+/*  Contact CSS start */
+
+.contactBg {
+    /* background-image: url(./img/bg/contact.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    /* background-color: #00264d; */
+    width: 100%;
+    padding-top: 100px;
+    /* padding-bottom: 176px; */
+}
+
+.contactBg .mainContactus .contactDetails {
+    max-width: 692px;
+    width: 100%;
+    padding: 68px 80px 65px 79px;
+    background-color: #FFFFFF;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.contactBg .mainContactus .contactDetails h1,
+.contactBg .mainContactus .contactDetails h2,
+.contactBg .mainContactus .OfficeLocationMain .locationtitle h1,
+.excepteurinstmainctn .taglinebox .teglineText h1,
+.excepteurinstmainctn .ourSpecialitiesbox h1 {
+    margin-bottom: 8px !important;
+}
+
+.contactBg .mainContactus .contactDetails h2,
+.contactBg .mainContactus .OfficeLocationMain .locationtitle h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+    height: 52px;
+    color: #202020;
+
+}
+
+.contactBg .mainContactus .OfficeLocationMain .locationtitle h2 {
+    color: #FFFFFF;
+    margin-bottom: 25px !important;
+}
+
+.contactBg .mainContactus .contactDetails p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    color: #202020;
+    margin-bottom: 47px !important;
+}
+
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .floating-label {
+    margin-bottom: 24px;
+    max-width: 450px;
+    width: 100%;
+}
+
+.contactBg .mainContactus .OfficeLocationMain {
+    background-image: url(./img/bg/contactlayer.png);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 12px 12px 0px;
+    padding: 68px 126px 110px 115px;
+}
+
+.contactBg .mainContactus .OfficeLocationMain .address h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 16px !important;
+}
+
+.contactBg .mainContactus .OfficeLocationMain .address img {
+    margin-right: 17.12px;
+}
+
+.contactBg .mainContactus .OfficeLocationMain .address p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contactBg .mainContactus .OfficeLocationMain .address .map,
+.contactBg .mainContactus .OfficeLocationMain .address .phone {
+    margin-bottom: 12px;
+}
+
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .serviceMsg {
+    height: 99px;
+    margin-bottom: 36px;
+}
+
+.contactBg .mainContactus .contactDetails .FloatingLabelbox .serviceMsg textarea {
+    border: 1px solid #00264d;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 33px;
+}
+
+/*  Contact CSS end  */
+
+/*  Blog CSS Start  */
+
+.bolgContentbox {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.bolgContentbox .blogMainImg {
+    transition: all 0.3s ease-in-out;
+}
+
+
+.bolgContentbox .blogtextcontent h1 {
+    margin-bottom: 8px !important;
+    color: #1ab999;
+}
+
+.bolgContentbox .blogtextcontent h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+    height: 104px;
+    max-width: 751px;
+    width: 100%;
+    margin-bottom: 8px !important;
+}
+
+.bolgContentbox .blogtextcontent p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 168px;
+    max-width: 728px;
+    width: 100%;
+    margin-bottom: 16px !important;
+    overflow: hidden;
+}
+
+.bolgContentbox .blogtextcontent a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    height: 27px;
+    text-decoration: none;
+    color: #1ab999;
+    margin-bottom: 24px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+.bolgContentbox .blogtextcontent .haseTagectn {
+    margin-top: 24px;
+}
+
+.bolgContentbox .blogtextcontent .haseTagectn .hasedetails {
+    background-color: #1ab999;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.bolgContentbox .blogtextcontent .haseTagectn .hasedetails span,
+.MainBlogCardSection .mainCarddetails .cardDetails span {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.MainBlogCardSection .mainCarddetails .hoverClass {
+    transition: all 0.3s ease-in-out;
+}
+
+
+.MainBlogCardSection .mainCarddetails .cardDetails span {
+    color: #1ab999;
+    font-weight: 400;
+}
+
+.MainBlogCardSection .row .col-xl-3 {
+    margin-bottom: 30px;
+}
+
+
+
+.MainBlogCardSection .mainCarddetails .cardDetails h1 {
+    height: 72px;
+    line-height: 36px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+    color: #202020;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin: 16px 0px 16px 0px !important;
+}
+
+.MainBlogCardSection .mainCarddetails .cardDetails p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 96px;
+    color: #202020;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.MainBlogCardSection .mainCarddetails .cardDetails .cardHase {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.MainBlogCardSection .mainCarddetails .cardDetails .cardHase .cardLearning,
+.MainBlogCardSection .mainCarddetails .cardDetails .cardHase .cardblockchain {
+    margin-right: 12px;
+    padding: 4px 8px;
+    background-color: #1ab999;
+    border-radius: 4px;
+}
+
+.MainBlogCardSection .mainCarddetails .cardDetails .cardHase .cardLearning p,
+.MainBlogCardSection .mainCarddetails .cardDetails .cardHase .cardblockchain p {
+    height: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.MainBlogCardSection .mainCarddetails .cardDetails u {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.blogPagination {
+    margin-bottom: 75px;
+}
+
+.jobPagination {
+    margin-top: 50px;
+    margin-bottom: 64px;
+}
+
+.blogPagination .pagination,
+.jobPagination .pagination {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.blogPagination .pagination li,
+.jobPagination .pagination li {
+    background: #F8F8F8;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.blogPagination .pagination li a,
+.jobPagination .pagination li a {
+    color: #202020;
+    text-decoration: none;
+}
+
+.blogPagination .pagination li.active,
+.jobPagination .pagination li.active {
+    width: 40px;
+    height: 40px;
+    background: #1ab999;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 1px #1ab999;
+}
+
+.blogPagination .pagination li .activepage,
+.jobPagination .pagination li .activepage {
+    color: #FFFFFF;
+}
+
+.blogPagination .pagination li:first-child,
+.blogPagination .pagination li:last-child,
+.jobPagination .pagination li:first-child,
+.jobPagination .pagination li:last-child {
+    display: none;
+}
+
+.blogPagination .pagination li:nth-child(2),
+.jobPagination .pagination li:nth-child(2) {
+    border-radius: 50% !important;
+    margin-right: 16px;
+}
+
+.blogPagination .pagination li:nth-child(3),
+.jobPagination .pagination li:nth-child(3) {
+    border-radius: 50px 0px 0px 50px;
+}
+
+.blogPagination .pagination li:nth-child(5),
+.jobPagination .pagination li:nth-child(5) {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.blogPagination .pagination li:nth-last-child(2),
+.jobPagination .pagination li:nth-last-child(2) {
+    margin-left: 16px;
+    border-radius: 50% !important;
+}
+
+.blogPagination .pagination .secArrow,
+.jobPagination .pagination .secArrow {
+    transform: rotate(180deg);
+}
+
+.blogPagination .pagination .page-item-custom .test {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection {
+    margin-top: 79px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .xsContainer,
+.ourjobMainBox .jobsNeedcard .xsContainer {
+    max-width: 1036px;
+    width: 100%;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .extraSmallContainer,
+.ourjobMainBox .jobsNeedcard .extraSmallContainer {
+    max-width: 544px;
+    width: 100%;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox .socialdate h1,
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox .postingLinkmain .postingLink h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1ab999;
+    height: 24px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #1ab999;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox .postingLinkmain .PostingSocialmedia {
+    margin-left: 24px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox .postingLinkmain .PostingSocialmedia a:last-child {
+    margin-right: 0px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox .postingLinkmain .PostingSocialmedia img {
+    margin-right: 16px;
+    object-fit: cover;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox {
+    display: flex;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox .hasectn {
+    min-width: 89px;
+    max-width: 192px;
+    height: 32px;
+    padding: 4px 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: #1ab999;
+    border-radius: 4px;
+    margin-right: 12px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox .hasectn p {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox .hasectn:last-child {
+    margin-right: 0px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurDetailstitle {
+    position: relative;
+    width: 100%;
+    padding: 24px 192px 24px 39px;
+    margin-top: 32px;
+    border-radius: 8px;
+    background: #F9F9F9;
+    margin-bottom: 32px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurDetailstitle::before {
+    position: absolute;
+    content: '';
+    width: 7px;
+    height: 100%;
+    background-color: #1ab999;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurDetailstitle p {
+    max-width: 805px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+    color: #202020;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox,
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox,
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox img {
+    margin-bottom: 56px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink {
+    margin-bottom: 24px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox h1,
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink h1,
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    height: 48px;
+    text-transform: capitalize;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: 12px !important;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox p,
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox p,
+.excepteurinstmainctn .taglinebox .teglineText p {
+    height: 120px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.excepteurinstDtailsSection .relatedBlogTitle {
+    margin-bottom: 38px;
+}
+
+.excepteurinstDtailsSection .relatedBlogTitle h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #202020;
+    text-transform: capitalize;
+
+}
+
+.excepteurinstDtailsSection .relatedBlogContent {
+    height: 650px;
+    overflow-y: scroll;
+    padding: 20px 50px;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn {
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #202020;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails {
+    padding-left: 24px;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails p {
+    margin: 10px 0px 0px 0px !important;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails p,
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202020;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails span {
+    color: #1ab999;
+}
+
+.excepteurinstDtailsSection .relatedBlogContent .relatedCtn:hover {
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 12px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul {
+    max-width: 1011px;
+    width: 100%;
+    margin-left: auto;
+    height: 160px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card {
+    border: none;
+
+    border-radius: 0px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header {
+    background-color: transparent;
+    padding: 32px 0px 16px 0px;
+    border-bottom: 1px solid #202020;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header h5 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    height: 27px;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header h5.active {
+    color: #1ab999;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header .btn:focus {
+    box-shadow: none;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card-body {
+    padding: 24px 20px 0px 20px;
+    height: 144px;
+    overflow: hidden;
+}
+
+.excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card-body p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.excepteurinstmainctn .taglinebox {
+    margin-top: 100px;
+    padding: 132px 0px 90px 0px;
+    background-color: #F9F9F9;
+}
+
+.excepteurinstmainctn .taglinebox .teglineText h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+    height: 104px;
+    color: #202020;
+    margin-bottom: 24px !important;
+    max-width: 730px;
+    width: 100%;
+}
+
+.excepteurinstmainctn .taglinebox .teglineText p {
+    max-width: 730px;
+    width: 100%;
+
+}
+
+.excepteurinstmainctn .taglinebox .teglineMainImg {
+    position: relative;
+}
+
+.excepteurinstmainctn .taglinebox .teglineMainImg::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 422px;
+    border-radius: 12px;
+    top: -42px;
+    left: 42px;
+    background: linear-gradient(0deg, rgba(229, 52, 103, 0.7) 0%, rgba(2, 0, 80, 0.7) 100%);
+}
+
+.excepteurinstmainctn .ourSpecialitiesbox {
+    padding: 100px 0px 100px 0px;
+}
+
+.excepteurinstmainctn .ourSpecialitiesbox h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    height: 36px;
+    letter-spacing: 0.15em;
+    color: #1ab999;
+}
+
+.excepteurinstmainctn .ourSpecialitiesbox .mainTitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    height: 48px;
+    text-transform: capitalize;
+    color: #202020;
+    margin-bottom: 65px !important;
+}
+
+.excepteurinstmainctn .ourSpecialitiesbox .mainCardbox {
+    width: 100%;
+}
+
+.excepteurinstmainctn .ourSpecialitiesbox .mainCardbox .specialitiescard {
+    max-width: 358px;
+    width: 100%;
+    text-align: center;
+    margin-right: 71px;
+}
+
+.excepteurinstmainctn .ourSpecialitiesbox .mainCardbox .specialitiescard img {
+    margin-bottom: 42px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.excepteurinstmainctn .ourSpecialitiesbox .mainCardbox .specialitiescard h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    height: 36px;
+    color: #202020;
+    margin-bottom: 16px !important;
+    white-space: nowrap;
+}
+
+.excepteurinstmainctn .ourSpecialitiesbox .mainCardbox .specialitiescard p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 96px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.excepteurinstmainctn .ceoContent .bgimg {
+    background-image: url(./img/bg/Subtract.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 385px;
+    position: relative;
+    padding-top: 190px;
+}
+
+.excepteurinstmainctn .ceoContent .bgimg::after {
+    position: absolute;
+    content: "";
+    background-image: url(./img/bg/subtractlayer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 385px;
+    top: 0;
+}
+
+.excepteurinstmainctn .ceoContent .bgimg .ceoCard {
+    max-width: 1102px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 72px 139px;
+    position: relative;
+    z-index: 10;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(157, 157, 157, 0.25);
+    border-radius: 12px;
+
+}
+
+.excepteurinstmainctn .ceoContent .bgimg .ceoCard .hex {
+    position: absolute;
+    top: -22px;
+    left: 45px;
+    width: 84px;
+    height: 68px;
+}
+
+.excepteurinstmainctn .ceoContent .bgimg .ceoCard p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+    height: 104px;
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 32px !important;
+}
+
+.excepteurinstmainctn .ceoContent .bgimg .ceoCard p span {
+    color: #1ab999;
+}
+
+.excepteurinstmainctn .ceoContent .bgimg .ceoCard h5 {
+    max-width: 287px;
+    width: 100%;
+    margin: 0 auto;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    height: 27px;
+    text-align: end;
+    position: relative;
+}
+
+.excepteurinstmainctn .ceoContent .bgimg .ceoCard h5::before {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 4px;
+    background-color: #1ab999;
+    left: 0px;
+    top: 12px;
+}
+
+.excepteurinstmainctn .ceoContent .contectbox {
+    padding-top: 211px;
+    padding-bottom: 100px;
+}
+
+/*  Family Benner CSS start  */
+
+.ourFamilyMainbox .ourfamilydetalisbox {
+    /* background-image: url(./img/bg/familyback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+/* .ourFamilyMainbox .ourfamilydetalisbox::after {
+    position: absolute;
+    content: '';
+    background-image: url(./img/bg/familybacklayer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+} */
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox {
+    position: relative;
+    z-index: 55;
+    margin-bottom: 75px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .mainfamilycard {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox {
+    padding: 28px 32px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyfollowlink .linkdin,
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyfollowlink .telegram,
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyfollowlink .skype {
+    width: 21px;
+    height: 21px;
+    margin-right: 12px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyfollowlink .skype {
+    margin-right: 0px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familycardtitle {
+    margin-top: 11px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familycardtitle h1,
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    height: 36px;
+    text-transform: uppercase !important;
+    text-transform: capitalize;
+    color: #fff;
+
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyownertitle {
+    margin-top: 8px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyownertitle p,
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    height: 24px;
+    color: #1ab999;
+}
+
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .row .col-lg-3 {
+    margin-top: 75px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .row .col-lg-3:nth-child(1),
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .row .col-lg-3:nth-child(2),
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .row .col-lg-3:nth-child(3),
+.ourFamilyMainbox .ourfamilydetalisbox .familycardbox .row .col-lg-3:nth-child(4) {
+    margin-top: 0px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain {
+    background-image: url(./img/bg/FamilySubtract.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 508px;
+    position: relative;
+    z-index: 58;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain::after {
+    background-image: url(./img/bg/familylayerSubtract.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: '';
+    top: 0px;
+    left: 0px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer {
+    position: relative;
+    z-index: 60;
+    padding-top: 246px;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle {
+    max-width: 865px;
+    width: 100%;
+    height: 146px;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48.8571px;
+    line-height: 73px;
+    color: #FFFFFF;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle h1 span {
+    color: #1ab999;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .familyjoining button {
+    width: 209px;
+    height: 64px;
+    background: #1ab999;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border-radius: 100px;
+    position: relative;
+    z-index: 5;
+    transition: all 0.3s ease-in-out;
+}
+
+.ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer::before {
+    background-image: url(./img/icone/familyvactor.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 787px;
+    height: 259px;
+    position: absolute;
+    content: '';
+    top: 176px;
+    right: 296px;
+}
+
+/*  Family Benner CSS end  */
+
+/*  Job CSS Start  */
+
+.ourjobMainBox .jobsNeedcard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox {
+    position: relative;
+
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobLayer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: #00264d;
+    opacity: 0.5;
+    border-radius: 12px;
+}
+
+
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainImg {
+    object-fit: cover;
+    border-radius: 12px;
+    width: 100%;
+    height: 323px;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .joblayer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 32px;
+    width: 100%;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded a {
+    width: 151px;
+    height: 32px;
+    background-color: #1ab999;
+    border-radius: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    text-decoration: none;
+    padding: 4px 8px;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .jobcardborder {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-bottom: 16px !important;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .JobMainTitle {
+    color: #FFFFFF;
+    margin-bottom: 16px !important;
+    max-width: 270px;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox p {
+    height: 96px;
+    line-height: 24px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location h1 {
+    color: #FFFFFF;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location {
+    margin-bottom: 8px;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location:last-child {
+    margin-bottom: 0px;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location .iconImg {
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius: 0px;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location h1,
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .visa h1,
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .visa p {
+    margin-bottom: 0px !important;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .visa {
+    max-width: 171px;
+    width: 100%;
+}
+
+.ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .visa h1 {
+    font-weight: 400;
+}
+
+.jobsNeedcard .joblisting,
+.jobcollapseBox .job-collapse {
+    width: 100%;
+    height: 60px;
+    background: #F8F8F8;
+    border-radius: 8px;
+    padding: 12px 22px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.jobsNeedcard .joblisting::before {
+    position: absolute;
+    width: 7px;
+    height: 72px;
+    background-color: #1ab999;
+    content: '';
+    top: 0px;
+    left: 0px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.jobsNeedcard .joblisting h1,
+.jobcollapseBox .job-collapse h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    height: 28px;
+    color: #1ab999;
+    overflow: hidden;
+}
+
+.jobcollapseBox {
+    margin-bottom: 40px;
+}
+
+.jobcollapseBox .yourresume,
+.jobcollapseBox .HireProcess {
+    margin-bottom: 16px;
+}
+
+.jobcollapseBox .yourresume .yourresumerow {
+    max-width: 544px;
+    width: 100%;
+}
+
+.jobcollapseBox .job-collapse {
+    margin-bottom: 0px;
+}
+
+.jobcollapseBox .job-collapse h1 {
+    font-weight: 400;
+    color: #000000;
+}
+
+.jobcollapseBox .job-collapse button {
+    background-color: transparent;
+    border: none;
+}
+
+.jobcollapseBox .job-collapse button .downCollapseArrow {
+    transform: rotate(180deg);
+}
+
+.jobcollapseBox .job-collapse .btn-primary:focus {
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.jobcollapseBox .card {
+    border: none;
+    border-radius: 0px;
+    position: relative;
+}
+
+.jobcollapseBox .card-body {
+    padding: 24px 54px;
+    position: relative;
+    background-color: transparent;
+}
+
+.jobcollapseBox .card-body::after {
+    width: 1px;
+    height: 140px;
+    position: absolute;
+    content: "";
+    background-color: #1ab999;
+    top: 0px;
+    left: 36px;
+}
+
+.jobcollapseBox .card-body ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    height: 27px;
+    margin-bottom: 24px;
+}
+
+.jobcollapseBox .card-body ul li:last-child {
+    margin-bottom: 0px;
+}
+
+.jobcollapseBox .card-body ul li::marker {
+    font-size: 21px;
+    color: #1ab999;
+}
+
+.ourjobMainBox .jobsNeedcard .contactUsBox {
+    position: relative;
+}
+
+.ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner p {
+    font-size: 14px;
+    max-width: 313px;
+    width: 100%;
+}
+
+.ourjobMainBox .jobsNeedcard .contactUsBox,
+.ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner p {
+    margin-bottom: 24px !important;
+}
+
+.ourjobMainBox .jobsNeedcard .seccontactUsBox {
+    width: 100%;
+    position: relative;
+}
+
+.ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner {
+    padding: 32px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(157, 157, 157, 0.25);
+    border-radius: 8px;
+}
+
+.ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1ab999;
+    height: 22px;
+    margin-bottom: 16px !important;
+}
+
+.ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    height: 44px;
+    color: #202020;
+    max-width: 279px;
+    width: 100%;
+
+}
+
+.File input[type="file"] {
+    display: none;
+}
+
+.File label {
+    width: 170px;
+    height: 49px;
+    background-color: #1ab999;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.File label img {
+    margin-right: 16px;
+}
+
+
+.ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner button img {
+    margin-right: 16px;
+}
+
+.ourjobMainBox .jobsNeedcard .seccontactUsBox .briefcase {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.ourjobMainBox .jobsNeedcard .row .col-lg-6 {
+    margin-bottom: 30px;
+}
+
+.ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(5),
+.ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(6) {
+    margin-bottom: 0px;
+}
+
+/*  Job CSS End  */
+
+/* seniorjavadev CSS Start */
+
+.seniorjavadevmain .seniorjavadevedetails {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+
+.seniorjavadevmain .seniorjavadevedetails .xscontainer {
+    max-width: 1068px;
+    width: 100%;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .extrasmallcontainer {
+    max-width: 535px;
+    width: 100%;
+    margin-top: 52px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniorimg {
+    width: 1068px;
+    height: 544px;
+    border-radius: 12px;
+    margin-top: 52px;
+    margin-bottom: 60px;
+    object-fit: cover;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .play {
+    position: absolute;
+    top: 260px;
+    left: 459px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    text-transform: capitalize;
+    height: 48px;
+    margin-left: 24px !important;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    height: 120px;
+    color: #202020;
+    max-width: 1036px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 12px !important;
+    margin-bottom: 48px !important;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle ul {
+    margin-top: 12px !important;
+    max-width: 1011px;
+    width: 100%;
+    margin-bottom: 48px !important;
+    margin: auto;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .firstul {
+    height: 160px;
+}
+
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+    height: 352px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+    margin-bottom: 100px !important;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul li,
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .firstul li {
+    line-height: 32px;
+}
+
+
+.seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle ul li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscontent {
+    background-color: #1ab999;
+    border-radius: 8px 8px 0px 0px;
+    padding: 31px 32px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails {
+    background: #F8F8F8;
+    border-radius: 8px;
+    margin-bottom: 32px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscontent h2 {
+    max-width: 362px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    height: 32px;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition {
+    padding: 32px 129px 24px 32px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition .jobConditiontitle img {
+    margin-right: 19px;
+    object-fit: cover;
+    width: 12px;
+    height: 12px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition .jobConditiontitle h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202020;
+    height: 24px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition .jobConditiontitlesec h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #202020;
+    height: 24px;
+    text-align: start;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition .jobdetailsmargin {
+    margin-bottom: 32px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailsbtn {
+    padding: 24px 32px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailsbtn button {
+    width: 100%;
+    height: 64px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1ab999;
+    border: none;
+    border-radius: 100px;
+    transition: all 0.3s ease-in-out;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailsbtn button:hover {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner p {
+    max-width: 313px;
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* seniorjavadev CSS End */
+
+/* Project CSS start */
+
+.OurProjectMain .ourprojectdetailsbox .maincardproject {
+    margin-top: 30px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-xl-6 {
+    margin-bottom: 30px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-xl-6:nth-child(7),
+.OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-xl-6:nth-child(8) {
+    margin-bottom: 0px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .project {
+    width: 100%;
+    height: 409px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .projectlayer {
+    position: absolute;
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+    opacity: 0.35;
+    width: 100%;
+    height: 409px;
+    border-radius: 12px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails {
+    position: absolute;
+    top: 270px;
+    left: 63px;
+
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 62px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    filter: drop-shadow(0px 4px 16px rgba(157, 157, 157, 0.25));
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202020;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label {
+    margin: 15px 0px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .peragraph {
+    max-width: 452px;
+    height: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    overflow: hidden;
+    color: #202020;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .hoverImg {
+    position: absolute;
+    right: 0px;
+    z-index: 111;
+    top: 0px;
+    border-radius: 0px 12px 12px 0px;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .project-btn {
+    max-width: 213px;
+    width: 100%;
+    height: 64px;
+    border-radius: 100px;
+    background-color: #1ab999;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    margin-top: 34px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .fintech,
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .SmartContract,
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain {
+    padding: 4px 20px;
+    background-color: #1ab999;
+    border-radius: 3px;
+    margin-right: 6px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .fintech p,
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .SmartContract p,
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain {
+    margin-right: 0px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #FFFFFF;
+    height: 32px;
+    margin-bottom: 16px !important;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel {
+    padding: 4px 23px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    margin-right: 8px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel p {
+    color: #202020;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    height: 21px;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg {
+    cursor: pointer;
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg .mainHover {
+    opacity: 0;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.OurProjectMain .ourprojectdetailsbox .projectimg:hover .mainHover {
+    opacity: 1;
+}
+
+
+/* Project CSS End */
+
+/* single Project CSS Start */
+
+/* .SingleProjectBG {
+    background: #3b3b59;
+} */
+
+
+.singleprojectview {
+    background-image: url(./img/bg/singleprojectback.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1760px;
+    position: relative;
+}
+
+.singleprojectview::after {
+    position: absolute;
+    content: "";
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+    opacity: 0.6;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+
+.singleprojectview .mainLinkBox,
+.singleprojectview .projectSlider {
+    position: relative;
+    z-index: 58;
+    padding-top: 24px;
+}
+
+.singleprojectview .projectSlider {
+    margin-top: 56px;
+    max-width: 820px;
+    width: 100%;
+    padding-top: 0px;
+}
+
+.singleprojectview .projectSlider .slick-dots {
+    max-width: 820px;
+    width: 100%;
+    height: 201px;
+    overflow: hidden;
+    bottom: initial;
+    text-align: start;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.singleprojectview .projectSlider .slick-dots li {
+    width: 186px;
+    height: 201px;
+    border-radius: 12px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.singleprojectview .projectSlider .slick-dots li:last-child {
+    margin-right: 0px;
+}
+
+.singleprojectview .projectSlider .slick-dots li.slick-active {
+    border: 3px solid #1ab999;
+}
+
+.singleprojectview .projectSlider .slick-slide>div {
+    height: 444px;
+}
+
+.singleprojectview .sliderContentmain {
+    position: relative;
+    z-index: 60;
+    background: #FFFFFF;
+    border-radius: 12px;
+    max-width: 815px;
+    width: 100%;
+    margin-top: 56px;
+    margin-left: auto;
+}
+
+.singleprojectview .sliderContentmain .slidercontenttitle {
+    display: flex;
+    align-items: center;
+    padding: 30px 32px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.singleprojectview .sliderContentmain .slidercontenttitle .imgbox img {
+    width: 80px;
+    height: 80px;
+    margin-right: 24px;
+    border-radius: 50%;
+}
+
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    height: 32px;
+}
+
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .fintech,
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .smartcontract,
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .blockchain {
+    padding: 4px 23px;
+    background-color: #1ab999;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .blockchain {
+    margin-right: 0px;
+}
+
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .fintech p,
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .smartcontract p,
+.singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .blockchain p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    height: 21px;
+    color: #FFFFFF;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox {
+    padding: 30px 32px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle {
+    margin-bottom: 36px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle:last-child {
+    margin-bottom: 24px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle .titlename,
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developertitle,
+.singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .tech,
+.singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    height: 36px;
+    color: #202020;
+    position: relative;
+    margin-bottom: 16px !important;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle .titlename::after,
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developertitle::after,
+.singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .tech::after,
+.singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationtitle::after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 36px;
+    left: -32px;
+    top: 0px;
+    background-color: #1ab999;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 96px;
+    overflow: hidden;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .slidernoticebox {
+    background: #F9F9F9;
+    border-radius: 8px;
+    padding: 28px 28px 27px 28px;
+    position: relative;
+    margin-bottom: 36px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .slidernoticebox p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+    overflow: hidden;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .slidernoticebox::after {
+    position: absolute;
+    content: '';
+    width: 5px;
+    height: 100%;
+    background-color: #1ab999;
+    top: 0px;
+    left: 0px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox {
+    display: flex;
+    align-items: center;
+    margin-right: 64px;
+    margin-bottom: 24px;
+
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox .imgbox {
+    margin-right: 16px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox .imgbox img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox .developertitlebox .name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    height: 24px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox .developertitlebox p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    height: 18px;
+    color: #1ab999;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerdeatilsbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 120px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .tech,
+.singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationtitle {
+    margin-bottom: 27px !important;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 88px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox .imgBox {
+    margin-right: 32px;
+    margin-bottom: 24px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox .imgBox:nth-child(6n) {
+    margin-right: 0px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox img,
+.singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg img {
+    min-width: 94px;
+    max-width: 115px;
+    height: 32px;
+
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg .SecImgBox:nth-child(5n) {
+    margin-right: 0px;
+}
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg .SecImgBox {
+    margin-right: 30px;
+}
+
+
+.singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    overflow: hidden;
+}
+
+.singleprojectview .slick-slide>div>div {
+    display: flex !important;
+
+}
+
+.singleprojectview .slick-prev,
+.singleprojectview .slick-next {
+    top: 20%;
+    width: 71px;
+    height: 71px;
+    z-index: 60;
+    background-color: #FFFFFF !important;
+    border-radius: 50%;
+    box-shadow: 0px 4px 16px rgba(157, 157, 157, 0.25);
+}
+
+.singleprojectview .slick-prev {
+    left: -50px;
+}
+
+.singleprojectview .slick-next {
+    right: -50px;
+}
+
+.singleprojectview .slick-prev:focus,
+.singleprojectview .slick-next:focus {
+    background-color: #FFFFFF !important;
+}
+
+.singleprojectview .slick-prev::before,
+.singleprojectview .slick-next::before {
+    position: absolute;
+    content: '';
+    background-image: url(./img/icone/SliderArrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    top: 28px;
+    left: 28px;
+}
+
+.singleprojectview .slick-next::before {
+    transform: rotate(180deg);
+}
+
+/* single Project CSS End */
+
+
+/* Model CSS */
+
+.seniorjavamodal .modal-dialog {
+    max-width: 580px !important;
+    width: 100% !important;
+}
+
+.seniorjavamodal .modal-dialog .modal-header {
+    background-color: #00264d;
+    position: relative;
+    padding: 24px 99px;
+    align-items: center;
+}
+
+.seniorjavamodal .modal-dialog .modal-header .modal-title {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    white-space: nowrap;
+}
+
+.seniorjavamodal .modal-dialog .modal-header .close {
+    background-color: transparent;
+    opacity: 1;
+    position: absolute;
+    top: 41px;
+    padding: 0px;
+    right: 50px;
+    width: fit-content;
+}
+
+.seniorjavamodal .modal-content .modal-body {
+    padding: 32px;
+    height: 692px;
+    overflow-y: scroll;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox {
+    margin-bottom: 24px;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox label,
+.seniorjavamodal .modal-content .modal-body .userNameBox p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202020;
+}
+
+.seniorjavamodal .modal-content .modal-body .attach-filebox {
+    margin-right: 32px;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox p {
+    margin-bottom: 8px !important;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .userName {
+    margin-top: 8px;
+    border: 1px solid #E5E7E9;
+    border-radius: 8px;
+    background: #FFFFFF;
+    padding: 12px 24px;
+    outline: none;
+
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .file-upload {
+    padding: 10px 20px;
+    min-width: 193px;
+    width: 100%;
+    height: 44px;
+    border: 1px solid #1ab999;
+    border-radius: 5px;
+    color: #1ab999;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .attach-file {
+    max-width: 161px;
+    width: 100%;
+    height: 44px;
+    padding: 10px 20px;
+    border: 1px solid #1ab999;
+    border-radius: 5px;
+    color: #1ab999;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .filesize {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    color: rgba(32, 32, 32, 0.3);
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox label span,
+.seniorjavamodal .modal-content .modal-body .userNameBox p span {
+    color: #BCBCBC;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .mininput .dropdown {
+    margin-top: 8px;
+
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .mininput .dropdown .dropdown-toggle {
+    padding: 15px 24px;
+    max-width: 248px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #000000 !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    border-color: #E5E7E9;
+    border-radius: 8px;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .mininput .dropdown .dropdown-toggle::after {
+    margin-left: 50px;
+    content: '';
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    background-image: url(./img/icone/dropdownArrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 11px;
+    vertical-align: 0px;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .mininput .dropdown .dropdown-menu {
+    max-width: 248px;
+    width: 100%;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .mininput .dropdown .dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .mininput {
+    max-width: 248px;
+    width: 100%;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .citybox {
+    margin-left: 20px;
+}
+
+.seniorjavamodal .modal-content .modal-body .userNameBox .userName::placeholder {
+    color: #202020;
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox .checkbox-item {
+    margin-top: 12px;
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox .checkbox-item label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202020;
+    margin-left: 34px;
+    margin-bottom: 8px !important;
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox .checkbox-item .secmainCheckbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0px;
+    width: 0px;
+
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox .checkbox-item .secmainCheckbox .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: transparent;
+    border: 2px solid #00264d;
+    border-radius: 5px;
+
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox .checkbox-item .secmainCheckbox input:checked~.checkmark {
+    background-color: #00264d;
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox .checkbox-item .secmainCheckbox input:checked~.checkmark::after {
+    display: block;
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox .checkbox-item .secmainCheckbox .checkmark::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: 2px;
+    width: 7px;
+    height: 11px;
+    border: solid #1ab999;
+    border-width: 0 2px 2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.seniorjavamodal .modal-content .modal-body .main-Checkbox h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202020;
+}
+
+.seniorjavamodal .modal-content .modal-footer {
+    border-top: none;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.seniorjavamodal .modal-content .modal-footer {
+    padding: 16px 32px 24px 32px;
+}
+
+.seniorjavamodal .modal-content .modal-footer .btn {
+    width: 100%;
+    height: 64px;
+    border-radius: 100px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1ab999;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    margin: 0px;
+}
+
+.seniorjavamodal .modal-content .modal-footer .btn:hover {
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+}
+
+.familymodal .modal-dialog {
+    max-width: 1920px !important;
+    width: 100% !important;
+}
+
+.familymodal .modal-dialog .modal-content {
+    border-radius: 0px;
+    border: none;
+}
+
+.familymodal .modalcontent {
+    padding: 0px !important;
+    height: auto;
+}
+
+.familymodal .modalcontent .popupimg {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+.familymodal .modalcontent .mainImgTitle {
+    left: 84px;
+    bottom: 153px;
+    max-width: 651px;
+    width: 100%;
+    height: 72px;
+    overflow: hidden;
+}
+
+.familymodal .modalcontent .mainImgTitle h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.familymodal .modalcontent .detailsBox {
+    padding: 116px 45px 45px 0px;
+    position: relative;
+    overflow: auto;
+    height: 100vh;
+}
+
+.familymodal .modalcontent .detailsBox .closeBOX {
+    position: absolute;
+    top: 46px;
+    right: 46px;
+}
+
+.familymodal .modalcontent .detailsBox .closeBOX p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #202020;
+    opacity: 0.5;
+}
+
+.familymodal .modalcontent .detailsBox .closeBOX img {
+    margin-left: 26px;
+    cursor: pointer;
+}
+
+.familymodal .modalcontent .detailsBox .title h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 96px;
+    text-transform: capitalize;
+    color: #202020;
+}
+
+.familymodal .modalcontent .detailsBox .title p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #1ab999;
+}
+
+.familymodal .modalcontent .detailsBox .certificationbox .certification {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.familymodal .modalcontent .detailsBox .certificationbox {
+    margin: 32px 0px 32px 0px;
+
+}
+
+.familymodal .modalcontent .detailsBox .certificationbox .certificationboxtitle h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.familymodal .modalcontent .detailsBox .certificationbox .certificationboxtitle {
+    margin-left: 12px;
+}
+
+.familymodal .modalcontent .detailsBox .certificationbox .certificationboxtitle p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #BDBDBD;
+}
+
+.familymodal .modalcontent .detailsBox .emailbox .emailctn p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #202020;
+}
+
+.familymodal .modalcontent .detailsBox .emailbox {
+    padding-bottom: 21px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.familymodal .modalcontent .detailsBox .emailbox .emailctn {
+    margin-right: 64px;
+}
+
+.familymodal .modalcontent .detailsBox .emailbox .emailctn .email {
+    margin-right: 11px;
+
+}
+
+.familymodal .modalcontent .detailsBox .emailbox .icon {
+    width: 17px;
+    height: 17px;
+    object-fit: cover;
+    margin-right: 14px;
+}
+
+.familymodal .modalcontent .detailsBox .reviewMain {
+    margin-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #C4C4C4;
+}
+
+.familymodal .modalcontent .detailsBox .reviewMain .reviewStar {
+    max-width: 157px;
+    width: 100%;
+    height: 25px;
+}
+
+.familymodal .modalcontent .detailsBox .reviewMain .mainReviewbox:first-child {
+    margin-top: 0px;
+}
+
+.familymodal .modalcontent .detailsBox .reviewMain .mainReviewbox {
+    min-width: 371px;
+    width: 100%;
+    margin-top: 24px;
+}
+
+.familymodal .modalcontent .detailsBox .descriptionbox {
+    height: 128px;
+    overflow: hidden;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.familymodal .modalcontent .detailsBox .descriptionbox p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox {
+    margin-top: 16px;
+    height: 207px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn {
+    width: 418px;
+    height: 207px;
+    position: relative;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn {
+    width: 418px !important;
+    height: 207px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage img {
+    width: 330px;
+    height: 207px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage::after {
+    background: linear-gradient(180deg, #000032 0%, #00264d 100%);
+    opacity: 0.35;
+    border-radius: 6.08738px;
+    box-shadow: 0px 2.02913px 8.1165px rgba(157, 157, 157, 0.25);
+    position: absolute;
+    content: '';
+    width: 330px;
+    height: 207px;
+    top: 0px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .smallbox {
+    position: absolute;
+    top: 130px;
+    z-index: 1111;
+    left: 24px;
+    height: 52px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .smallbox h1 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .smallbox .linkbox {
+    padding: 4px 14px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 2px;
+    margin-right: 8px;
+    margin-top: 10px;
+
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .smallbox .linkbox:last-child {
+    margin-right: 0px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .smallbox .linkbox p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #1ab999;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .slick-dots {
+    text-align: left;
+    bottom: -30px;
+}
+
+.familymodal .modalcontent .detailsBox .projectWorkBox .slick-dots li button:before {
+    font-size: 11px;
+    color: #1ab999;
+}
+
+.ourSpecialitiesbox .specialitiescard {
+    text-align: center;
+}
+
+.ourSpecialitiesbox .specialitiescard img {
+    margin-bottom: 42px;
+    max-width: 87px;
+    object-fit: cover;
+}
+
+.ourSpecialitiesbox .specialitiescard .recruitment,
+.ourSpecialitiesbox .specialitiescard .webDevelop,
+.ourSpecialitiesbox .specialitiescard .website,
+.ourSpecialitiesbox .specialitiescard .ecommerce {
+    font-size: 24px;
+    margin-bottom: 16px !important;
+    height: 36px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+
