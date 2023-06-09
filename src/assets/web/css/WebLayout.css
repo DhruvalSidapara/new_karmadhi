@@ -1,0 +1,293 @@
+/* Header CSS start */
+
+.navbar .navbar-brand .DesktopLogo {
+    display: block;
+}
+
+.navbar .navbar-brand .MediaScreenLogo {
+    display: none;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav .activeTab {
+    color: #1ab999 !important;
+    position: relative;
+    display: inline-block;
+    font-size:14px;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav .default {
+    transition: all 0.3s ease-in-out;
+    font-size:14px;
+    font-weight:400;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav .default:hover {
+    color: #1ab999 !important;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav .activeTab:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.navbar-expand-lg .navbar-collapse .navbar-nav .activeTab::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    background-color: #1ab999;
+    border-radius: 12px;
+    top: auto;
+    left: 0px;
+    bottom: 0px;
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-out;
+}
+
+.MainHeaderDiv {
+    position: fixed;
+    z-index: 1111;
+    width: 100%;
+}
+
+.MainHeaderDiv .dark {
+    background-color: transparent;
+    /* backdrop-filter: blur(6px); */
+}
+
+.MainHeaderDiv .transparent {
+    background-color: #2c3e50;
+    border-bottom: 1px solid #828282;
+}
+
+.MainHeaderDiv .transparent .navbar-nav a {
+    color: #FFFFFF !important;
+}
+
+.MainHeaderDiv .navbar-nav a {
+    color: #FFFFFF !important;
+    text-transform: uppercase;
+}
+
+/* Header CSS End */
+
+.fixed-custom-header .KarmadhiHeader .link-itmes {
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+
+.MainFooterContent {
+    background-color: #2c3e50;
+}
+
+.MainFooterContent .footerMainClass .RowContent {
+    padding: 45px 0px 45px 0px;
+    /* border-bottom: 1px solid #1ab999; */
+}
+
+.footerMainClass .footerImg img {
+    width: 200px;
+    margin-bottom: 23px;
+}
+
+.footerMainClass .Copyright {
+    width: 100%;
+}
+
+.footerMainClass .Copyright p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #1ab999;
+    /* text-align: center; */
+}
+
+.footerMainClass .footerBlogContent {
+    width: 100%;
+}
+
+.footerMainClass .footerService {
+    width: 100%;
+}
+
+.footerMainClass .footerFollow {
+    width: 100%;
+}
+
+.footerMainClass .footernewSletter {
+    width: 100%;
+}
+
+.footerMainClass .footerBlogContent h2,
+.footerMainClass .footerService h2,
+.footerMainClass .footerFollow h2,
+.footerMainClass .footernewSletter h2 {
+    color: #1ab999;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    height: 27px;
+    line-height: 27px;
+    margin-bottom: 20px !important;
+}
+
+.footerMainClass .footerFollow a {
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 12px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    opacity:0.7;
+}
+
+.FooterLink img{
+    opacity: 0.7;
+}
+
+.footerMainClass .footerFollow .FooterLink {
+    margin-bottom: 8px;
+}
+
+.footerMainClass .footernewSletter input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 15px 110px 15px 20px;
+    outline: none;
+    border: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.footerMainClass .footernewSletter a {
+    /* position: absolute; */
+    left: 2px;
+    /* width: 105px;
+    height: 35px; */
+    top: 2px;
+    padding:5px 25px;
+    border: none;
+    background-color: #1ab999 !important;
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration:none !important;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.footerMainClass .footernewSletter button:hover {
+    box-shadow: rgb(0 0 0 / 45%) 0px 25px 20px -20px;
+}
+
+.footerMainClass .footernewSletter input::placeholder {
+    color: #BDBDBD;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footerMainClass .footernewSletter p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    opacity:0.7;
+    line-height: 24px;
+    color: #FFFFFF;
+    height: 48px;
+    overflow: hidden;
+    margin-bottom: 20px !important;
+}
+
+.footerMainClass .footerBlogContent a,
+.footerMainClass .footerService a {
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.footerMainClass .footerBlogContent a:last-child {
+    margin-bottom: 0px;
+}
+
+.footerMainClass .footerBlogContent p,
+.footerMainClass .footerService p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.7;
+    color: #FFFFFF;
+    margin-bottom: 8px !important;
+    line-height: 24px;
+}
+
+.footerMainClass .footerBlogContent p:last-child,
+.footerMainClass .footerService p:last-child {
+    margin-bottom: 0px !important;
+}
+
+.footerMainClass .footerBlogContent p:hover,
+.footerMainClass .footerBlogContent p:hover {
+    opacity: 1 !important;
+}
+
+.footerMainClass .footercookiesbox {
+    padding: 20px 0px 20px 0px;
+    max-width: 565px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footerMainClass .footercookiesbox a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    height: 24px;
+    opacity:0.7;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footerMainClass .footercookiesbox span {
+    width: 2px;
+    height: 18px;
+    background: #1ab999;
+}
+
+/*  Header CSS start */
+
+.KarmadhiHeader .active {
+    color: #1ab999 !important;
+}
+
+/*  Header CSS end */
+
+.logo-tech img {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.useSoftwareSlider .slick-track {
+    display: flex !important;
+    align-items: center !important;
+}

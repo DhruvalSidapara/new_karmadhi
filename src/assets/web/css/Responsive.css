@@ -1,0 +1,3796 @@
+/*  ===>  Service Component CSS start  <===  */
+
+@media (max-width:574px) {
+
+    .main-content-service {
+        margin-bottom: 30px !important;
+    }
+
+    .main-content-service:last-child {
+        margin-bottom: 0px !important;
+    }
+
+
+}
+
+@media (max-width:1280px) {
+    .OurServiceForm .mainFormContent .OurServiceUserContent {
+        position: inherit;
+        left: 0px;
+        top: 0px;
+        margin-top: 30px;
+    }
+
+    .OurServiceForm .mainFormContent {
+        padding: 50px;
+    }
+
+    .OurServiceContentbox .NewTechSlider,
+    .NewTechSlider .slick-slider,
+    .OurServiceContentbox .NewTechSlider .sliderContent img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .NewTechSlider .NewPostHighLightContent {
+        position: inherit;
+        top: -120px;
+        padding-left: 20px;
+    }
+
+    .NewTechSlider .sliderContent .imgLayer {
+        height: 422px;
+    }
+
+    .OurServiceContentbox .slick-prev {
+        z-index: 9999;
+        left: 59px;
+        top: 260px;
+        width: 25px;
+        height: 25px;
+        background-color: #fff !important;
+        border-radius: 50%;
+    }
+
+    .OurServiceContentbox .slick-next {
+        right: 332px;
+        top: 260px;
+        width: 25px;
+        height: 25px;
+        background-color: #fff !important;
+        border-radius: 50%;
+    }
+
+    .OurServiceContentbox .slick-prev::before {
+        top: 7px;
+        right: 7px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .OurServiceContentbox .slick-next::before {
+        width: 12px;
+        height: 12px;
+        top: 7px;
+        left: 7px;
+    }
+
+    .OurServiceContentbox {
+        padding: 100px 0px 50px 0px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent {
+        padding-top: 60px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover {
+        padding: 37px 32px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .overServiceDetails h3 {
+        font-size: 25px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .OverServiceHoverTitle h3 {
+        font-size: 15px;
+        height: 30px;
+        line-height: 30px;
+
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .OverServiceHoverTitle {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails {
+        margin-top: 25px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails p {
+        font-size: 12px;
+        height: 70px;
+        line-height: 23.33px;
+        margin-bottom: 15px !important;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber .floating-label input {
+        width: 420px;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer,
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer2 {
+        display: block;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1680px) {
+    .OurServiceContentbox .NewTechSlider {
+        width: 100%;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent {
+        position: inherit;
+        left: 0px;
+        top: 0px;
+        margin-top: 30px;
+    }
+
+    .OurServiceForm .mainFormContent {
+        padding: 55px 78px;
+        margin: 0 auto;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent img {
+        width: 100%;
+        height: 500px;
+    }
+
+    .OurServiceContentbox .slick-prev {
+        left: 20px;
+        z-index: 111;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: #fff !important;
+        top: 204;
+    }
+
+    .OurServiceContentbox .slick-prev::before {
+        top: 7px;
+        right: 7px;
+    }
+
+    .OurServiceContentbox .slick-next {
+        z-index: 111;
+        right: 20px;
+        width: 30px;
+        top: 204px;
+        height: 30px;
+        background-color: #fff !important;
+        border-radius: 50%;
+    }
+
+    .OurServiceContentbox .slick-next::before {
+        top: 7px;
+        left: 7px;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber .floating-label input {
+        width: 480px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .overServiceDetails h3 {
+        font-size: 28px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .OverServiceHoverTitle {
+        padding-bottom: 20px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails {
+        margin-top: 20px;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer,
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer2 {
+        display: block;
+    }
+
+
+}
+
+@media (min-width:575px) and (max-width:991px) {
+
+    .main-content-service {
+        margin-bottom: 30px !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav a {
+        width: 97%;
+        text-decoration: none;
+        padding: 5px 10px;
+        text-transform: uppercase;
+    }
+
+    .MainHeaderDiv .navbar-nav {
+        background-color: #2c3e50;
+        padding-top: 20px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+
+    }
+
+
+
+    .OurServiceForm .mainFormContent {
+        padding: 50px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent {
+        position: inherit;
+        left: 0px;
+        top: 0px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent img {
+        width: 100%;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .mainFormContent .FloatingLabelbox {
+        margin-bottom: 30px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .UserBack {
+        margin-top: 35px !important;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .UserBack {
+        max-width: 144px;
+        width: 100%;
+        height: 144px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails img {
+        max-width: 140px;
+        width: 100%;
+        height: 140px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userContact {
+        margin-top: 20px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .OverServiceMainTitle .OurServiceForm .FloatingLabelbox .floating-label:first-child {
+        margin-bottom: 24px;
+    }
+
+    .OverServiceMainTitle .OurServiceForm .FloatingLabelbox .floating-label,
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber .floating-label input {
+        width: 100%;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userTitle {
+        margin-top: 15px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails .userTitle h3 {
+        font-size: 20px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails,
+    .OurServiceForm .mainFormContent .OurServiceUserContent .UserLayer,
+    .OurServiceForm .mainFormContent .OurServiceUserContent img {
+        max-height: 416px;
+        height: 100%;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox button {
+        max-width: 200px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .overServiceDetails h3 {
+        font-size: 24px;
+    }
+
+    .OurServiceContentbox .NewTechSlider {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+    .OurServiceContentbox .slick-prev {
+        position: inherit;
+        top: 212px !important;
+        left: 15px;
+        z-index: 9999;
+
+    }
+
+    .OurServiceContentbox .slick-next {
+        position: inherit;
+        left: 893px;
+        z-index: 9999;
+        top: -239px;
+    }
+
+    .footerMainClass .footerBlogContent h2,
+    .footerMainClass .footerService h2,
+    .footerMainClass .footerFollow h2,
+    .footerMainClass .footernewSletter h2 {
+        font-size: 14px !important;
+    }
+
+    .footerMainClass .Copyright p,
+    .footerMainClass .footerBlogContent p,
+    .footerMainClass .footerService p,
+    .footerMainClass .footernewSletter p {
+        font-size: 12px !important;
+        height: 27px !important;
+    }
+
+    .footerMainClass .footernewSletter p {
+        text-align: center;
+    }
+
+    .footerMainClass .footerImg img {
+        max-width: 150px;
+        width: 100%;
+    }
+
+    .MainFooterContent .footerMainClass .RowContent {
+        padding: 40px 0px 50px 0px !important;
+    }
+
+    .footerMainClass .footercookiesbox {
+        padding: 20px 0px 20px 0px !important;
+    }
+
+    .footerMainClass .footercookiesbox a {
+        font-size: 13px !important;
+    }
+
+    .MainFooterContent .footerMainClass .RowContent {
+        padding: 50px 0px 50px 0px !important;
+    }
+
+}
+
+
+
+@media(min-width:320px) and (max-width:768px) {
+    .OurServiceBanner {
+        background-position: center;
+        height: 500px;
+    }
+
+    .email-us-btn {
+        margin-left: 10px !important;
+    }
+
+    .footerMainClass .footerImg img {
+        width: 150px !important;
+        margin-bottom: 23px;
+    }
+
+    .MainHeaderDiv .navbar-nav {
+        background-color: #2c3e50;
+        padding-top: 20px;
+        margin-top: 5px;
+        padding-bottom: 20px;
+    }
+
+    .mainOurServiceBenner {
+        height: 500px;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle {
+        top: 200px;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle p {
+        font-size: 15px;
+        height: 40px;
+        line-height: 20px;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber .floating-label input {
+        width: 100%;
+    }
+
+    .OurServiceForm .mainFormContent {
+        padding: 10px 20px;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber,
+    .footerMainClass {
+        flex-wrap: wrap;
+    }
+
+    .MainFooterContent .footerMainClass .RowContent {
+        padding: 35px 0px 50px !important;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber .floating-label {
+        width: 100%;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceNumber .floating-label:nth-child(1) {
+        margin-bottom: 24px;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent {
+        display: none;
+    }
+
+    .OurServiceForm .mainFormContent .OurServiceUserContent .mainUserContentDetails {
+        position: initial;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg,
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer,
+    .OurServiceBanner .Overlayer,
+    .OurServiceBanner .Overlayer img,
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg .BannerLayer2 {
+        width: 100%;
+    }
+
+    .OurServiceBanner .Overlayer {
+        height: 100%;
+
+    }
+
+    .OurServiceBanner .Overlayer img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .overLayerbg {
+        display: none;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent {
+        padding-top: 30px;
+    }
+
+    .OurServiceContentbox .NewTechSlider,
+    .navbar .navbar-brand .DesktopLogo {
+        display: none !important;
+    }
+
+    .navbar .navbar-brand .MediaScreenLogo {
+        display: block !important;
+        max-width: 90px;
+        width: 100%;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle h3 {
+        font-size: 24px;
+        line-height: 30px;
+        margin-bottom: 10px !important;
+    }
+
+    .mainOurServiceBenner .OurServiceBanner .mainBenner .BannerTitle h3::after {
+        display: none;
+    }
+
+    .footerMainClass .footercookiesbox {
+        flex-wrap: wrap;
+        padding: 36px 20px !important;
+    }
+
+    .OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent h3,
+    .OurServiceForm .mainFormContent .serviceFormtitle h3,
+    .OverServiceMainTitle .mainOverServiceContent .secDetailsContent h3 {
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent h2,
+    .OurServiceForm .mainFormContent .serviceFormtitle p,
+    .OverServiceMainTitle .mainOverServiceContent .secDetailsContent p,
+    .NewtechContentbox .NewTechInnerctn .NewTechTitleandContent h2 {
+        font-size: 20px;
+        height: 50px;
+        line-height: 25px;
+        margin: auto;
+    }
+
+    .OurServiceForm .mainFormContent .serviceFormtitle span {
+        font-size: 11px;
+        height: 20px;
+        line-height: 10px;
+    }
+
+    .OurServiceForm .mainFormContent .serviceFormtitle {
+        margin-bottom: 20px;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .floating-label input {
+        padding: 15px 15px;
+        font-size: 12px;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .serviceMsg textarea {
+        padding: 15px;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox .floating-label label {
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    .OurServiceForm .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .OurServiceForm .mainFormContent .FloatingLabelbox button,
+    .OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent button {
+        max-width: 150px;
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .OurServiceContentbox {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover {
+        padding: 25px 20px;
+        height: 100%;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .overServiceDetails h3 {
+        font-size: 20px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .OverServiceRowCtn .secDetailsContent {
+        margin-bottom: 0px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .OverServiceHoverTitle {
+        padding-bottom: 15px;
+        border-bottom: 2px solid #fff;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails p {
+        font-size: 12px;
+        height: 36px;
+        line-height: 18px;
+        margin-bottom: 10px !important;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .secDetailsContent span {
+        font-size: 12px;
+        height: 60px;
+        line-height: 20px;
+        overflow: hidden;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .OverServiceHoverTitle h3 {
+        font-size: 14px;
+        height: 24px;
+        line-height: 24px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails {
+        margin-top: 15px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg .OverServiceHover .HoverOverserviceDetails button {
+        font-size: 14px;
+    }
+
+    .OverServiceMainTitle .mainOverServiceContent .overServiceImg img {
+        height: auto;
+    }
+
+    .OverServiceMainTitle .linkBox a {
+        font-size: 12px;
+    }
+
+    .OverServiceMainTitle .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .OverServiceMainTitle .mainLinkBox span img {
+        width: 5px;
+    }
+
+    .OurServiceContentbox .OurServiceSliderCtn .NewTechTitleandContent p {
+        margin-bottom: 30px !important;
+    }
+
+    .footerMainClass .responsiveDiv {
+        margin-bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerMainClass .footerBlogContent,
+    .footerMainClass .footerService {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footerMainClass .footerFollow {
+        width: 100% !important;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footerMainClass .footernewSletter h2 {
+        text-align: center;
+    }
+
+    .navbar-expand-lg .navbar-collapse .navbar-nav .default,
+    .navbar-expand-lg .navbar-collapse .navbar-nav .activeTab {
+        margin-bottom: 10px;
+    }
+
+}
+
+/*  ===>  Service Component CSS End  <===  */
+
+
+
+
+
+/*  ===>  job page responsive CSS start  <===  */
+
+@media (min-width:320px) and (max-width:768px) {
+    .ourjobMainBox .jobsNeedcard {
+        flex-wrap: wrap;
+    }
+
+    .jobsNeedcard .joblisting,
+    .jobcollapseBox .job-collapse {
+        padding: 15px 20px;
+        height: 50px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    .jobsNeedcard .joblisting::before {
+        height: 100%;
+    }
+
+    .jobsNeedcard .joblisting h1,
+    .jobcollapseBox .job-collapse h1 {
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .jobcollapseBox .job-collapse button img {
+        max-width: 15px;
+        width: 100%;
+    }
+
+    .jobcollapseBox {
+        margin-bottom: 20px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner,
+    .ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner {
+        padding: 20px;
+
+    }
+
+    .ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner h3 {
+        font-size: 15px;
+        margin-bottom: 10px !important;
+    }
+
+    .ourjobMainBox .jobsNeedcard .contactUsBox .headset,
+    .ourjobMainBox .jobsNeedcard .seccontactUsBox .briefcase {
+        width: 40px;
+        height: 40px;
+        top: 10px;
+    }
+
+
+
+    .ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner button,
+    .ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner button {
+        max-width: 150px;
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        /* margin: auto; */
+        margin-top: 24px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner button img,
+    .ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner button img {
+        margin-right: 5px;
+        width: 13px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .extraSmallContainer {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .jobcollapseBox .card-body ul li {
+        font-size: 11px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(5),
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(6) {
+        margin-bottom: 30px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox h1 {
+        font-size: 16px;
+        height: 20px;
+        line-height: 20px;
+        margin-bottom: 10px !important;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded {
+        position: inherit;
+        top: 270px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox p {
+        height: 80px;
+        line-height: 26px;
+        font-size: 14px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location img {
+        margin-right: 5px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location h1,
+    .ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .visa h1,
+    .ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .visa p {
+        font-size: 10px;
+        width: fit-content;
+        white-space: nowrap;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox {
+        padding: 20px;
+        height: 100%;
+    }
+
+    .ourjobMainBox .jobsNeedcard .contactUsBox .contactUsInner {
+        height: 180px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .ourjobMainBox .jobsNeedcard .seccontactUsBox .contactUsInner h3 {
+        font-size: 15px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox img {
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .ourjobMainBox .linkBox a {
+        font-size: 12px;
+    }
+
+    .ourjobMainBox .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .ourjobMainBox .mainLinkBox span img {
+        width: 5px;
+    }
+
+    .position-relative {
+        position: relative !important;
+        text-align: center;
+    }
+
+    .footerMainClass .footernewSletter p {
+        text-align: center;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .ourjobMainBox .jobsNeedcard {
+        flex-wrap: wrap;
+    }
+
+    .ourjobMainBox .jobsNeedcard .extraSmallContainer {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(5),
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(6) {
+        margin-bottom: 30px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .contactUsBox,
+    .ourjobMainBox .jobsNeedcard .seccontactUsBox {
+        /* max-width: 544px; */
+        width: 100%;
+        margin: auto;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox h1 {
+        font-size: 13px;
+        height: 25px;
+        line-height: 25px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox p {
+        font-size: 12px;
+        height: 80px;
+        line-height: 26.66px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location img {
+        margin-right: 5px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .location h1 {
+        white-space: nowrap;
+        font-size: 10px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .mainlocationbox .visa p {
+        font-size: 10px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox {
+        height: 100%;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded {
+        position: inherit;
+        top: 258px;
+        width: 120px;
+        right: 32px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded p {
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .jobsNeedcard .joblisting,
+    .jobcollapseBox .job-collapse {
+        height: 58px;
+        padding: 15px 20px;
+    }
+
+    .jobsNeedcard .joblisting::before {
+        height: 100%;
+    }
+
+    .jobsNeedcard .joblisting h1,
+    .jobcollapseBox .job-collapse h1 {
+        font-size: 18px;
+    }
+
+    .jobcollapseBox .job-collapse button img {
+        max-width: 15px;
+        width: 100%;
+    }
+
+    .ourjobMainBox .linkBox a {
+        font-size: 15px;
+    }
+
+    .ourjobMainBox .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .ourjobMainBox .mainLinkBox span img {
+        width: 8px;
+    }
+
+    .email-us-btn {
+        margin-top: 4px !important;
+        margin-left: 9px !important;
+    }
+
+
+}
+
+@media (min-width:992px) and (max-width:1280px) {
+    .ourjobMainBox .jobsNeedcard {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ourjobMainBox .jobsNeedcard .extraSmallContainer {
+        max-width: 1000px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* max-width: 1000px; */
+        column-gap: 40px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(5),
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(6) {
+        margin-bottom: 30px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded {
+        position: inherit;
+        top: 15px;
+        right: 15px;
+        width: 130px;
+
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox .jobcardTitlebox .urgentlyNeeded p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .footerMainClass .footernewSletter a {
+        padding: 5px 10px !important;
+    }
+
+
+}
+
+@media (min-width:1281px) and (max-width:1600px) {
+    .ourjobMainBox .jobsNeedcard {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .ourjobMainBox .jobsNeedcard .xsContainer {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .ourjobMainBox .jobsNeedcard .jobcardbox img {
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(5),
+    .ourjobMainBox .jobsNeedcard .row .col-lg-6:nth-child(6) {
+        margin-bottom: 30px;
+    }
+
+    .ourjobMainBox .jobsNeedcard .extraSmallContainer {
+        max-width: 1400px !important;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 1000px;
+        column-gap: 40px;
+    }
+
+}
+
+/*  ===>  job page responsive CSS End  <===  */
+
+
+/*  ===>  Ourfamily Page CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:768px) {
+    .ourFamilyMainbox .partofFamilymain .responsiveContent {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        padding-top: 80px;
+    }
+
+    .partofFamilymain .familycontainer::before {
+        display: none;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle {
+        height: 60px;
+
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle h1 {
+        font-size: 18px;
+        text-align: center;
+        line-height: 26.66px;
+    }
+
+    .familyjoining {
+        margin-top: 20px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox {
+        padding-top: 50px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer {
+        padding-top: 137px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox {
+        margin-bottom: 0px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .col-lg-4:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .familyjoining button {
+        max-width: 200px;
+        width: 100%;
+        height: 50px;
+        font-size: 12px;
+        padding: 4px 14px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .mainfamilycard .familycard img {
+        height: 300px !important;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox {
+        padding: 20px 25px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyfollowlink .linkdin,
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyfollowlink .telegram,
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familyfollowlink .skype {
+        width: 15px;
+        height: 15px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .familyDetailsBox .familycardtitle h1 {
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .ourFamilyMainbox .ourfamilydetalisbox .familycardbox .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle h1 {
+        font-size: 35px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer::before {
+        width: 450px;
+        height: 150px;
+        top: 236px;
+        right: 96px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .familyjoining button {
+        width: 150px;
+        height: 50px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1280px) {
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer .partfamilytitle {
+        height: 100px;
+    }
+
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer::before {
+        width: 400px;
+        height: 130px;
+        top: 216px;
+        right: 106px;
+    }
+
+
+}
+
+@media (min-width:1281px) and (max-width:1680px) {
+    .ourFamilyMainbox .ourfamilydetalisbox .partofFamilymain .familycontainer::before {
+        width: 500px;
+        height: 164px;
+        top: 220px;
+        right: 180px;
+    }
+}
+
+/*  ===>  Ourfamily Page CSS End  <===  */
+
+/*  ===>  Our Project Page CSS start  <===  */
+@media (min-width:320px) and (max-width:768px) {
+    .OurProjectMain .ourprojectdetailsbox .projectimg .hoverImg {
+        display: none;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject {
+        padding: 20px;
+        height: 100%;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .peragraph {
+        font-size: 12px;
+        height: 50px;
+        line-height: 25px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject h1 {
+        font-size: 18px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label {
+        margin: 10px 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .fintech,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .SmartContract,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain {
+        margin-right: 10px;
+        max-width: 100px;
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 4px 7px;
+    }
+
+    /* .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain {
+        margin-right: 0px;
+    } */
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .fintech p,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .SmartContract p,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain p {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .project-btn {
+        width: 150px;
+        height: 50px;
+        margin-top: 25px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-xl-6,
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-xl-6:nth-child(7) {
+        margin-bottom: 30px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-xl-6:last-child {
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails h1 {
+        font-size: 16px;
+        height: 25px;
+        line-height: 25px;
+        margin-bottom: 10px !important;
+        /* text-align: center; */
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .project,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .projectlayer {
+        height: 300px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails {
+        /* left: 20px;
+        top: 240px; */
+        width: 100%;
+        left: 0px;
+        top: auto;
+        bottom: 0px;
+        padding: 20px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .responsiveLabel {
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel {
+        width: 100px;
+        margin-bottom: 10px;
+        padding: 4px 7px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel:last-child {
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel p {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .jobPagination {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .OurProjectMain .linkBox a {
+        font-size: 12px;
+    }
+
+    .OurProjectMain .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .OurProjectMain .mainLinkBox span img {
+        width: 7px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4:nth-child(7),
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4:nth-child(8) {
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails h1 {
+        font-size: 20px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject {
+        padding: 30px;
+        height: 100%;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .hoverImg {
+        display: none;
+    }
+
+    .bolgContentbox .blogtextcontent h2 {
+        font-size: 26px;
+        line-height: 40px;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width:991px) and (max-width:1280px) {
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4:nth-child(7),
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4:nth-child(8) {
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .hoverImg {
+        display: none;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject {
+        padding: 20px;
+        height: 100%;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label {
+        margin: 10px 0px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .fintech,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .SmartContract,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain {
+        max-width: 150px;
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain {
+        margin-right: 0px;
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject h1 {
+        font-size: 19px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .peragraph {
+        height: 70px;
+        font-size: 13px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .project-btn {
+        margin-top: 25px;
+        max-width: 200px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails {
+        left: 20px;
+        top: 275px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails h1 {
+        font-size: 20px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .responsiveLabel {
+        flex-wrap: wrap;
+
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel {
+        margin-bottom: 8px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel:nth-child(2),
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel:nth-child(3) {
+        margin-right: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .ourprojectdetails .cardlabel:nth-child(3) {
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .fintech p,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .SmartContract p,
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass .label .blockchain p {
+        text-align: center;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .gridClass {
+        text-align: center;
+    }
+
+    .bolgContentbox .blogtextcontent h2 {
+        font-size: 27px;
+        line-height: 42px;
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1680px) {
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4:nth-child(7),
+    .OurProjectMain .ourprojectdetailsbox .maincardproject .row .col-lg-4:nth-child(8) {
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject {
+        padding: 30px;
+        height: 100%;
+    }
+
+    .OurProjectMain .ourprojectdetailsbox .projectimg .HoverProject .peragraph {
+        max-width: 400px;
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .mainImgTitle {
+        left: 50px;
+        max-width: 601px;
+        width: 100%;
+        height: 72px;
+        overflow: hidden;
+    }
+
+
+}
+
+/*  ===>  Our Project Page CSS End  <===  */
+
+/*  ===>  Blog Page CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:768px) {
+    .bolgContentbox .blogtextcontent h2 {
+        font-size: 20px;
+        height: 70px;
+        line-height: 26px;
+    }
+
+    .mainBlogCtn .mainLinkBox a {
+        font-size: 12px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+
+    .mainBlogCtn .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .mainBlogCtn .mainLinkBox span img {
+        max-width: 5px;
+
+    }
+
+    .mainBlogCtn .mainLinkBox {
+        overflow-x: hidden;
+
+    }
+
+    .bolgContentbox {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .bolgContentbox .blogtextcontent p {
+        font-size: 12px;
+        height: 90px;
+        line-height: 22.5px;
+    }
+
+    .bolgContentbox .blogtextcontent a {
+        font-size: 14px;
+    }
+
+    .bolgContentbox .blogtextcontent a img {
+        margin-left: 10px !important;
+    }
+
+    .bolgContentbox .blogtextcontent .haseTagectn {
+        margin-bottom: 20px;
+        /* justify-content: center; */
+    }
+
+    .MainBlogCardSection .mainCarddetails .cardDetails .cardHase {
+        justify-content: center;
+    }
+
+    .MainBlogCardSection .row .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .mainBlogCtn .bolgContentbox .blogMainImg {
+        height: 350px !important;
+    }
+
+}
+
+/*  ===>  Blog Page CSS End  <===  */
+
+
+/*  ===>  Contact Us Page CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:768px) {
+    .contactBg {
+        background-position: 0;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .contactBg .mainContactus {
+        flex-wrap: wrap;
+    }
+
+    .contactBg .mainContactus .contactDetails {
+        border-radius: 0px;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .contactBg .mainContactus .contactDetails .FloatingLabelbox .serviceMsg textarea {
+        width: 100% !important;
+    }
+
+    .contactBg .mainContactus .OfficeLocationMain {
+        background-position: 0;
+        padding: 20px;
+        border-radius: 0px;
+        background-size: 0;
+        padding: 0px;
+    }
+
+    .contactBg .mainContactus .OfficeLocationMain .locationtitle h1 {
+        font-size: 15px;
+        height: 24px;
+        line-height: 24px;
+    }
+
+    .contactBg .mainContactus .OfficeLocationMain .locationtitle h2 {
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+        margin-bottom: 10px !important;
+    }
+
+    .contactBg .mainContactus .contactDetails h2 {
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .contactBg .mainContactus .contactDetails p {
+        font-size: 9px;
+        margin-bottom: 20px !important;
+    }
+
+    .contactBg .mainContactus .contactDetails .FloatingLabelbox {
+        text-align: center;
+    }
+
+    .contactBg .mainContactus .contactDetails .FloatingLabelbox button {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .contactBg .mainContactus {
+        flex-wrap: wrap;
+    }
+
+    .contactBg .mainContactus .contactDetails,
+    .contactBg .mainContactus .OfficeLocationMain {
+        max-width: 100%;
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .contactBg .mainContactus .contactDetails .FloatingLabelbox .floating-label {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .contactBg .mainContactus .contactDetails .FloatingLabelbox .serviceMsg textarea {
+        width: 100% !important;
+    }
+
+
+}
+
+@media (min-width:991px) and (max-width:1280px) {
+
+    .contactBg .mainContactus .contactDetails,
+    .contactBg .mainContactus .OfficeLocationMain {
+        padding: 50px;
+    }
+
+    .contactBg {
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+
+}
+
+/*  ===>  Contact Us Page CSS End  <===  */
+
+
+/*  ===>  SoftwareTesting Page CSS start  <===  */
+
+@media (min-width:320px) and (max-width:551px) {
+    .MainSoftWareTesting .mainSoftwareContent {
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .MainSoftWareTesting .linkBox a {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .softwareImgBox,
+    .MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .SoftwareDetailsCtn {
+        margin-bottom: 40px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .SoftwareDetailsCtn h3,
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText h3,
+    .SoftwareSliderContent .softwaresliderTitle p {
+        font-size: 18px;
+        height: 27px;
+        line-height: 27px;
+        margin-bottom: 12px !important;
+    }
+
+    .SoftwareSliderContent {
+        padding: 0px;
+        display: none;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling {
+        padding-bottom: 60px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText p {
+        height: 200px;
+        font-size: 13px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwaretestingContent .SoftwareDetailsCtn p {
+        font-size: 13px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText label {
+        padding-top: 15px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox {
+        max-width: 100%;
+        width: 100%;
+        padding-bottom: 150px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover {
+        top: 40px;
+        right: 85px;
+        width: 170px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover h3,
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .titleP,
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .hoverContactDetails .num {
+        font-size: 12px;
+        height: 18px;
+        line-height: 18px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .Linkedinblack,
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .skypeblack,
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .Telegram {
+        width: 16px;
+        height: 16px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .headset {
+        width: 50px;
+        height: 50px;
+        top: 8px;
+        right: 8px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner button {
+        max-width: 130px;
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .contactUsInner .Contact img {
+        margin-right: 10px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox {
+        width: 82px;
+        height: 82px;
+        right: 15px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox .floatingBox .FloatingHover .floatingHoverInner {
+        flex-wrap: wrap;
+        padding-bottom: 5px;
+        /* justify-content: center !important; */
+    }
+
+    .MainSoftWareTesting .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .MainSoftWareTesting .mainLinkBox span img {
+        width: 7px;
+    }
+
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .smallbox .linkbox p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+}
+
+@media (min-width:551px) and (max-width:991px) {
+
+    .mainSoftwareContent {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText p {
+        height: 230px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling {
+        padding-bottom: 70px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox {
+        padding-bottom: 200px;
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track .slick-slide {
+        max-width: 500px;
+        width: 100% !important;
+        margin-right: 85px;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain {
+        padding: 30px;
+        height: 100%;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track,
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track .slick-slide>div {
+        height: 242px;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg h1 {
+        font-size: 20px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg h2 {
+        font-size: 19px;
+        height: 27px;
+        line-height: 27px;
+        margin-bottom: 15px !important;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareHoverMain .MiniHoverCtnbg p {
+        font-size: 12px;
+        height: 70px;
+        line-height: 23.33px;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareSliderTitle h1,
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareSliderTitle p {
+        font-size: 15px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .softwareSliderTitle {
+        top: 135px;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .software-img .bgleyer {
+        height: 135px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling .SoftwareDetailingText h3 {
+        font-size: 24px;
+        height: 36px;
+        line-height: 36px;
+    }
+}
+
+@media (min-width:991px) and (max-width:1280px) {
+
+    .MainSoftWareTesting .mainSoftwareContent {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .smallContainer {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox {
+        max-width: 500px;
+        width: 100%;
+        padding-bottom: 200px;
+    }
+
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track .slick-slide {
+        margin-right: 182px;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1680px) {
+    .SoftwareSliderContent .SoftwareSliderInner .softwareSliderctnmain .slick-track .slick-slide {
+        margin-right: 80px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .smallContainer {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .contactUsBox {
+        max-width: 600px;
+        width: 100%;
+        padding-bottom: 200px;
+    }
+
+    .MainSoftWareTesting .mainSoftwareContent .SoftwareDeteling {
+        padding-bottom: 100px;
+    }
+}
+
+
+/*  ===>  SoftwareTesting Page CSS End  <===  */
+
+
+/*  ===>  OursingleProject Page CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:551px) {
+
+    .singleprojectview .slick-slide>div>div {
+        flex-wrap: wrap;
+    }
+
+    .singleprojectview .mainLinkBox .linkBox a {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .singleprojectview .mainLinkBox {
+        overflow-x: hidden;
+    }
+
+    .singleprojectview .mainLinkBox span {
+        margin: 0px 10px 0px 10px;
+    }
+
+    .singleprojectview .mainLinkBox span img {
+        width: 7px;
+    }
+
+    .singleprojectview .sliderContentmain {
+        margin-top: 120px;
+    }
+
+    .projectSlider .sliderdots img {
+        width: 50px !important;
+        height: 50px !important;
+    }
+
+    .singleprojectview .projectSlider .slick-dots li {
+        max-width: 55px;
+        width: 100%;
+        height: 55px;
+    }
+
+    .singleprojectview .projectSlider .slick-dots {
+        height: 56px;
+    }
+
+    .singleprojectview .projectSlider .slick-dots li.slick-active {
+        border: 2px solid #1ab999;
+    }
+
+    .singleprojectview .sliderContentmain .slidercontenttitle {
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox h1 {
+        font-size: 18px;
+        height: 24px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox {
+        flex-wrap: wrap;
+        margin-top: 10px;
+        justify-content: center;
+    }
+
+    .singleprojectview .sliderContentmain .slidercontenttitle .imgbox img {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .fintech,
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .smartcontract {
+        margin-bottom: 10px;
+        max-width: 100%;
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .blockchain {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .fintech p,
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .smartcontract p,
+    .singleprojectview .sliderContentmain .slidercontenttitle .titlebox .labelbox .blockchain p {
+        text-align: center;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox {
+        padding: 20px 25px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle .titlename::after,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developertitle::after,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .tech::after,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationtitle::after {
+        left: -25px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle .titlename,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developertitle,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .tech,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationtitle {
+        font-size: 20px;
+        height: 27px;
+        line-height: 27px;
+        margin-bottom: 10px !important;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle p {
+        height: 60px;
+        line-height: 20px;
+        font-size: 13px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdetailstitle {
+        margin-bottom: 25px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .slidernoticebox {
+        padding: 20px;
+        margin-bottom: 25px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .slidernoticebox p {
+        font-size: 12px;
+        height: 40px;
+        line-height: 20px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox {
+        margin-right: 0px;
+        margin-bottom: 12px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerdeatilsbox {
+        justify-content: center;
+        overflow: auto;
+        margin-bottom: 30px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox {
+        height: 100px;
+        overflow: auto;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox img,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg img {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 18px;
+    }
+
+    .singleprojectview {
+        height: 100%;
+        padding-bottom: 150px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg {
+        flex-wrap: wrap;
+        height: 100px;
+        justify-content: center;
+        overflow: auto;
+    }
+
+    .singleprojectview .projectSlider {
+        margin-top: 30px;
+    }
+
+    .singleprojectview .slick-prev {
+        left: -42px;
+    }
+
+    .singleprojectview .slick-next {
+        right: -42px;
+    }
+
+    .singleprojectview .slick-prev,
+    .singleprojectview .slick-next {
+        top: 35%;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox .imgBox {
+        margin-bottom: 0px;
+    }
+}
+
+@media (min-width:552px) and (max-width:768px) {
+    .singleprojectview .slick-slide>div>div {
+        flex-wrap: wrap;
+    }
+
+    .singleprojectview {
+        height: 100%;
+        padding-bottom: 150px;
+    }
+
+    .singleprojectview .sliderContentmain {
+        margin-top: 208px;
+    }
+
+    .singleprojectview .projectSlider .slick-dots li {
+        width: 150px;
+        height: 157px;
+    }
+
+    .singleprojectview .projectSlider .slick-dots {
+        height: 158px;
+    }
+
+    .singleprojectview .projectSlider .slick-dots img {
+        height: 150px !important;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox {
+        margin-right: 55px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerdeatilsbox,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox,
+    .singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg {
+        justify-content: center;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox .imgBox:nth-child(5n) {
+        margin-right: 0px;
+    }
+
+    .singleprojectview .slick-next {
+        right: 580px;
+    }
+
+    .singleprojectview .slick-prev {
+        left: 0px;
+    }
+
+    .singleprojectview .slick-prev,
+    .singleprojectview .slick-next {
+        top: 103%;
+    }
+}
+
+@media (min-width:769px) and (max-width:1080px) {
+    .singleprojectview .slick-slide>div>div {
+        flex-wrap: wrap;
+    }
+
+    .singleprojectview .projectSlider,
+    .singleprojectview .projectSlider .slick-dots {
+        max-width: 100%;
+    }
+
+    .singleprojectview .sliderContentmain {
+        margin-top: 250px !important;
+        margin: auto;
+    }
+
+    .singleprojectview {
+        height: 100%;
+        padding-bottom: 150px;
+    }
+
+    .singleprojectview .slick-prev {
+        left: 0px;
+    }
+
+    .singleprojectview .slick-next {
+        right: 0px;
+    }
+
+    .singleprojectview .slick-prev,
+    .singleprojectview .slick-next {
+        top: 40%;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerbox:nth-child(3n) {
+        margin-right: 0px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerdeatilsbox {
+        justify-content: center;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .developeruseingtech .techimgbox .imgBox:nth-child(6n) {
+        margin-right: 0px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg {
+        justify-content: center;
+    }
+}
+
+@media (min-width:1081px) and (max-width:1480px) {
+    .singleprojectview .slick-slide>div>div {
+        flex-wrap: wrap;
+    }
+
+    .singleprojectview {
+        height: 100%;
+        padding-bottom: 150px;
+    }
+
+    .singleprojectview .sliderContentmain {
+        margin: auto;
+        margin-top: 200px;
+    }
+
+    .singleprojectview .projectSlider,
+    .singleprojectview .projectSlider .slick-dots {
+        max-width: 100%;
+        justify-content: space-around !important;
+
+    }
+
+    .singleprojectview .projectSlider .slick-dots {
+        height: 100px;
+        justify-content: inherit !important;
+    }
+
+    .singleprojectview .projectSlider .slick-dots li {
+        width: 100px;
+        height: 100%;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .singleprojectview .projectSlider .slick-dots .sliderdots img {
+        height: 92px !important;
+        border-radius: 50% !important;
+    }
+
+    .singleprojectview .slick-prev,
+    .singleprojectview .slick-next {
+        top: 27%;
+    }
+
+    .singleprojectview .slick-next {
+        right: 0px;
+    }
+
+    .singleprojectview .slick-prev {
+        left: 1240px;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .sliderdeveloperbox .developerdeatilsbox {
+        justify-content: center;
+    }
+
+    .singleprojectview .sliderContentmain .sliderdetailsbox .collaborationbox .collaborationimg {
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:1481px) and (max-width:1680px) {
+
+    .singleprojectview .slick-prev,
+    .singleprojectview .slick-next {
+        top: 17%;
+    }
+
+    .singleprojectview .slick-prev {
+        left: -37px;
+    }
+
+    .singleprojectview .slick-next {
+        right: -35px;
+    }
+}
+
+/*  ===>  OursingleProject Page CSS End  <===  */
+
+
+/*  ===>  Seniorjavadev Page CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:551px) {
+    .seniorjavadevmain .seniorjavadevedetails {
+        flex-wrap: wrap;
+    }
+
+    .seniorjavadevmain .linkBox a {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .seniorjavadevmain .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .seniorjavadevmain .mainLinkBox span img {
+        width: 7px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniorimg {
+        width: 100%;
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .play {
+        left: 15px;
+        top: 45px;
+        max-width: 100px;
+        width: 100%;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .extrasmallcontainer {
+        margin-top: 0px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition {
+        padding: 20px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle h1 {
+        font-size: 24px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle p {
+        font-size: 12px;
+        height: 90px;
+        line-height: 22px;
+        margin-bottom: 30px !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle ul li {
+        font-size: 12px;
+        line-height: 25px !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscontent h2 {
+        font-size: 20px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscontent,
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailsbtn {
+        padding: 20px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailsbtn button {
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul,
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .firstul {
+        height: 100%;
+        padding: 10px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+        margin-bottom: 50px !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle ul {
+        margin-bottom: 35px !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition .jobConditiontitle h2,
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition .jobConditiontitlesec h1 {
+        font-size: 13px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox {
+        padding-bottom: 150px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner {
+        padding: 20px;
+        height: 100%;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .headset {
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox {
+        width: 82px;
+        height: 82px;
+        right: 10px;
+        top: 140px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner button {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .contactUsInner button img {
+        margin-right: 10px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover {
+        width: 200px;
+        top: 55px;
+        right: 85px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .floatingHoverInner {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        padding-bottom: 5px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .hoverContactDetails {
+        justify-content: center;
+    }
+}
+
+@media (min-width:551px) and (max-width:991px) {
+
+    .seniorjavadevmain .seniorjavadevedetails {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniorimg {
+        width: 100%;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .play {
+        width: 100px;
+        height: 100px;
+        top: auto;
+        bottom: 85px;
+        left: 25px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .firstul,
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+        padding: 15px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+        margin-bottom: 50px !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox {
+        padding-bottom: 150px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover {
+        top: 100px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .extrasmallcontainer {
+        max-width: 600px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox .floatingBox .FloatingHover .hoverContactDetails {
+        justify-content: center;
+    }
+}
+
+
+@media (min-width:991px) and (max-width:1280px) {
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniorimg {
+        width: 100%;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .firstul,
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+        padding: 20px;
+        height: 100%;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+        margin-bottom: 80px !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle ul {
+        margin-top: 0px !important;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .extrasmallcontainer {
+        margin-top: 0px;
+        max-width: 650px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .contactUsBox {
+        padding-bottom: 150px;
+    }
+}
+
+@media (min-width:1280px) and (max-width:1680px) {
+    .seniorjavadevmain .seniorjavadevedetails .xscontainer {
+        max-width: 990px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniorimg {
+        width: 100%;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .extrasmallcontainer {
+        max-width: 400px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .jobDetails .jobdetailscondition {
+        padding: 20px;
+    }
+
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .firstul,
+    .seniorjavadevmain .seniorjavadevedetails .seniortextbox .seniortitlebox .seniortitle .secul {
+        height: 100%;
+        padding: 20px;
+        margin-top: 0px !important;
+    }
+}
+
+/*  ===>  Seniorjavadev Page CSS End  <===  */
+
+
+/*  ===>  HomePage CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:551px) {
+
+    .mainHomeContent .LayerBg .layerbgimg,
+    .mainHomeContent .LayerBg .layerbgimgtwo {
+        display: none;
+    }
+
+    .jobConversation .JobConversationTitle h3 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .mainHomeContent .SliderRow .sliderInnerText h3 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .mainHomeContent .SliderRow .sliderInnerText p {
+        font-size: 13px;
+        height: 50px;
+        line-height: 25px;
+    }
+
+    .mainHomeContent .SliderRow .sliderInnerText button {
+        max-width: 150px;
+        width: 100%;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+
+    .typeIndustry .TypeIdustryInner .rowContent .col-lg-8 {
+        margin-top: 30px;
+    }
+
+    .jobConversation .JobConversationTitle {
+        left: 0px;
+        top: 70px;
+        width: 100%;
+        height: 70px;
+        overflow: hidden;
+    }
+
+    .jobConversation .JobConversationTitle p {
+        font-size: 14px;
+        /* height: 40px; */
+        line-height: 20px;
+        max-width: 200px;
+        width: 100%;
+        margin-top: 10px !important;
+    }
+
+    .sliderLogo .SliderLogoContent {
+        padding: 50px 0px 50px 0px;
+    }
+
+    .sliderLogo .SliderLogoContent h3 {
+        font-size: 14px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .sliderLogo .SliderLogoContent h2 {
+        font-size: 20px;
+        height: 60px;
+        line-height: 30px;
+        white-space: inherit;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        /* margin-bottom: 20px !important; */
+    }
+
+    .sliderLogo .logoinnerSlider .slick-slider .slick-slide {
+        margin-right: 0px;
+    }
+
+    .NewtechContentbox {
+        padding: 60px 0px 60px 0px;
+    }
+
+    .NewtechContentbox .NewTechSlider {
+        width: 100%;
+    }
+
+    .NewTechSlider .NewPostHighLightContent {
+        position: inherit;
+        left: 0px;
+        margin: 0 auto;
+        top: -94px;
+    }
+
+    .NewTechSlider .NewPostHighLightContent h2 {
+        font-size: 16px;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .NewtechContentbox .NewTechInnerctn .NewTechTitleandContent button {
+        /* width: 150px; */
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .NewtechContentbox .NewTechInnerctn .NewTechTitleandContent p {
+        height: 70px;
+        line-height: 23px;
+        margin-bottom: 20px !important;
+    }
+
+    .NewtechContentbox .NewTechInnerctn {
+        padding-bottom: 25px;
+    }
+
+    .OurProjectContent .OurProjectInnerctn {
+        padding: 50px 0px 80px 0px;
+    }
+
+    .OurProjectContent .OurProjectInnerctn .ourProjectInnerTitle h3 {
+        font-size: 15px;
+        height: 24px;
+        line-height: 24px;
+    }
+
+    .OurProjectContent .OurProjectInnerctn .ourProjectInnerTitle {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .OurProjectContent .OurProjectInnerctn .ourProjectInnerTitle button {
+        max-width: 200px;
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .typeIndustry .TypeIdustryInner .TypeIndustryInnerContent .viewContent p {
+        font-size: 14px;
+        height: 40px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .typeIndustry .TypeIdustryInner .TypeIndustryInnerContent .viewContent {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        margin-bottom: 30px;
+    }
+
+    .typeIndustry .TypeIdustryInner .TypeIndustryInnerContent .viewContent button {
+        margin-top: 10px;
+    }
+
+    .useSoftwareSlider {
+        padding: 50px 20px;
+    }
+
+    .typeIndustry .TypeIdustryInner {
+        padding: 80px 0px 80px 0px;
+    }
+
+    /* .typeIndustry .TypeIdustryInner .industryGird:nth-child(1) {
+        margin-bottom: 30px;
+    } */
+    .typeIndustry .TypeIdustryInner .col-sm-6:nth-child(1),
+    .typeIndustry .TypeIdustryInner .col-sm-6:nth-child(2) {
+        margin-bottom: 40px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird {
+        flex-wrap: wrap;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird .TitleContentBox {
+        /* margin-left: 15px; */
+        padding-left: 0px;
+        margin-top: 20px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird.secGrid {
+        margin-top: 40px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird .logoImg {
+        max-width: 50px;
+    }
+}
+
+
+@media (min-width:552px) and (max-width:768px) {
+    .sliderLogo .logoinnerSlider .slick-slider .slick-slide {
+        margin-right: 0px;
+        padding: 15px;
+    }
+
+    .sliderLogo .logoinnerSlider .slick-slider .slick-list {
+        height: auto;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird .logoImg {
+        max-width: 50px;
+    }
+
+    .NewtechContentbox .NewTechSlider {
+        width: 100%;
+    }
+
+    .NewtechContentbox .NewTechInnerctn {
+        margin-bottom: 20px;
+    }
+
+    .typeIndustry .TypeIdustryInner .rowContent .col-lg-8 {
+        margin-top: 30px;
+    }
+
+    .typeIndustry .TypeIdustryInner .col-sm-6:nth-child(1),
+    .typeIndustry .TypeIdustryInner .col-sm-6:nth-child(2),
+    .typeIndustry .TypeIdustryInner .col-sm-6:nth-child(3),
+    .typeIndustry .TypeIdustryInner .col-sm-6:nth-child(4) {
+        margin-bottom: 40px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird {
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird .TitleContentBox {
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird.secGrid {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width:769px) and (max-width:991px) {}
+
+@media (min-width:992px) and (max-width:1280px) {
+
+    .NewtechContentbox .NewTechSlider,
+    .NewtechContentbox .NewTechSlider .sliderContent img {
+        width: 100%;
+        height: 300px;
+    }
+
+    .sliderLogo .logoinnerSlider .slick-slider .slick-list {
+        height: auto;
+    }
+
+    .sliderLogo .logoinnerSlider .slick-slider .slick-slide {
+        margin-right: 0px;
+        padding: 15px;
+    }
+
+    .typeIndustry .TypeIdustryInner .rowContent .col-lg-8 .col-lg-6 {
+        margin-top: 19px;
+    }
+
+    .typeIndustry .TypeIdustryInner .rowContent .col-lg-4 {
+        margin-bottom: 30px;
+    }
+
+    .typeIndustry .TypeIdustryInner .rowContent .col-lg-4:nth-child(4),
+    .typeIndustry .TypeIdustryInner .rowContent .col-lg-4:nth-child(5),
+    .typeIndustry .TypeIdustryInner .rowContent .col-lg-4:nth-child(6) {
+        margin-bottom: 0px;
+    }
+
+    .jobConversation .JobConversationTitle {
+        top: 125px;
+        left: 0px;
+        width: 100%;
+    }
+
+    .jobConversation .JobConversationTitle h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .typeIndustry .TypeIdustryInner {
+        padding: 100px 0px 100px 0px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird .TitleContentBox {
+        margin-left: 0px;
+        margin-top: 20px;
+        padding-left: 0px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird .logoImg {
+        max-width: 50px;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird.secGrid {
+        margin-top: 0px;
+    }
+
+    .jobConversation .HoverJobCard:hover {
+        transform: scale(1);
+    }
+}
+
+
+@media (min-width:1281px) and (max-width:1680px) {
+    .sliderLogo .logoinnerSlider .slick-slider .slick-slide {
+        margin-right: 0px;
+        padding: 15px;
+    }
+
+    .useSoftwareSlider {
+        padding: 80px 30px;
+    }
+
+    .NewtechContentbox .NewTechSlider {
+        width: 100%;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird {
+        align-items: center;
+    }
+
+    .typeIndustry .TypeIdustryInner .industryGird .logoImg {
+        max-width: 50px;
+    }
+
+    .sliderLogo .logoinnerSlider .slick-slider .slick-list {
+        height: auto;
+    }
+
+
+}
+
+/*  ===>  HomePage CSS End  <===  */
+
+
+/*  ===>  singleProject Page CSS start  <===  */
+
+@media (min-width:320px) and (max-width:551px) {}
+
+/*  ===>  singleProject Page CSS End  <===  */
+
+
+
+
+/*  ===>  Model CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:425px) {
+
+
+    .modal.show .modal-dialog {
+        margin: 0 auto;
+    }
+
+    .seniorjavamodal .modal-dialog .modal-header {
+        padding: 20px;
+
+    }
+
+    .seniorjavamodal .modal-dialog .modal-header .modal-title {
+        font-size: 12px;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .userNameBox {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .userNameBox .citybox {
+        margin-left: 0px;
+        margin-top: 24px;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .MainuploadDiv {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .userNameBox .file-upload {
+        min-width: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .userNameBox .file-upload img {
+        margin-right: 10px;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .userNameBox .attach-file {
+        max-width: 100%;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .userNameBox .attach-file img {
+        margin-right: 10px;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .attach-filebox {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .seniorjavamodal .modal-content .modal-body {
+        padding: 20px;
+        height: auto;
+    }
+
+    .seniorjavamodal .modal-content .modal-body .userNameBox .mininput,
+    .seniorjavamodal .modal-content .modal-body .userNameBox .mininput .dropdown .dropdown-toggle {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .seniorjavamodal .modal-dialog .modal-header .close {
+        top: 36px;
+        right: 36px;
+    }
+
+    .seniorjavamodal .modal-content .modal-footer .btn {
+        margin: 0px;
+        height: 50px;
+    }
+
+    .familymodal .modalcontent .popupimg {
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .mainImgTitle {
+        height: 40px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+        left: 10px;
+        bottom: 50px;
+    }
+
+    .familymodal .modalcontent .mainImgTitle h1 {
+        font-size: 12px;
+
+        line-height: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX {
+        /* top: -470px;
+        right: 20px; */
+        top: 10px;
+        right: 40px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX p {
+        color: #202020;
+        font-size: 12px;
+    }
+
+    .familymodal .modalcontent .detailsBox .title h1 {
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .familymodal .modalcontent .detailsBox .title h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .familymodal .modalcontent .detailsBox .title p {
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 10px !important;
+    }
+
+    .familymodal .modalcontent .detailsBox {
+        padding: 50px 10px;
+    }
+
+    .familymodal .modalcontent .detailsBox .certificationbox {
+        margin: 20px 0px 20px 0px;
+    }
+
+    .familymodal .modalcontent .detailsBox .emailbox {
+        display: block !important;
+        text-align: center;
+    }
+
+    .familymodal .modalcontent .detailsBox .emailbox .emailctn {
+        margin-right: 15px;
+        display: flex !important;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .familymodal .modalcontent .detailsBox .emailbox .icon:last-child {
+        margin-right: 0px;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .reviewResponsiveDiv {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .mainReviewbox {
+        min-width: 100%;
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn {
+        width: 100% !important;
+    }
+
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage::after {
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .smallbox .linkbox {
+        padding: 4px 14px;
+        background: rgba(255, 255, 255, 0.4);
+        border-radius: 2px;
+        margin-right: 8px;
+        margin-top: 10px;
+
+    }
+
+
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    .modal.show .modal-dialog {
+        margin: 0 auto;
+    }
+
+    .familymodal .modalcontent .popupimg {
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox {
+        padding: 30px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX img {
+        width: 16px;
+    }
+
+    .familymodal .modalcontent .detailsBox .title h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-bottom: 20px !important;
+        margin-top: 25px;
+    }
+
+    .familymodal .modalcontent .detailsBox .emailbox {
+        margin-left: 10px;
+        padding-bottom: 20px;
+        display: block !important;
+        text-align: center;
+
+    }
+
+    .familymodal .modalcontent .detailsBox .emailbox .emailctn {
+        margin-left: 10px;
+        display: flex !important;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX {
+        /* top: -1153px; */
+        right: 20px;
+        top: 10px;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .reviewResponsiveDiv {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox .title p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn,
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage::after,
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage img {
+        width: 340px !important;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .familymodal .modalcontent .mainImgTitle {
+        left: 32px;
+        max-width: 551px;
+    }
+
+    .familymodal .modalcontent .mainImgTitle h1 {
+        font-size: 22px;
+    }
+
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .show {
+        padding: 0px;
+    }
+
+    .modal.show .modal-dialog {
+        margin: 0 auto;
+    }
+
+    .familymodal .modalcontent .popupimg {
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox {
+        padding: 50px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX {
+        /* position: inherit;
+        top: -1550px;
+        right: -614px; */
+        top: 20px;
+        right: 21px;
+    }
+
+    .familymodal .modalcontent .detailsBox .title h1 {
+        font-size: 50px;
+        line-height: 55px;
+        margin-bottom: 20px !important;
+        margin-top: 20px;
+    }
+
+
+
+}
+
+@media (min-width:992px) and (max-width:1280px) {
+    .modal.show .modal-dialog {
+        margin: 0 auto;
+    }
+
+    .familymodal .modalcontent .detailsBox {
+        padding: 50px 50px 50px 0px;
+    }
+
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn,
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage img,
+    .familymodal .modalcontent .detailsBox .projectWorkBox .projectSliderBox .projectSliderCtn .ProjectSliderImage::after {
+        width: 385px !important;
+    }
+
+    .familymodal .modalcontent .popupimg {
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox {
+        /* height: 964px; */
+        overflow: auto;
+        height: calc(100vh - 30px);
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain {
+        flex-wrap: wrap;
+        justify-content: center !important;
+        margin-top: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .reviewResponsiveDiv {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .reviewResponsiveDiv:nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .familymodal .modalcontent .mainImgTitle h1 {
+        font-size: 20px;
+    }
+
+    .familymodal .modalcontent .mainImgTitle {
+        left: 40px;
+        max-width: 470px;
+        bottom: 40px;
+    }
+
+    .familymodal .modalcontent .detailsBox .title h1 {
+        font-size: 26px;
+        line-height: 28px;
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .familymodal .modalcontent .detailsBox .title p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .familymodal .modalcontent .detailsBox .certificationbox .certificationboxtitle h1 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .certificationbox {
+        margin: 20px 0px;
+    }
+
+    .familymodal .modalcontent .detailsBox .certificationbox .certification {
+        width: 40px;
+        height: 40px;
+    }
+
+    .familymodal .modalcontent .detailsBox .certificationbox .certificationboxtitle p,
+    .familymodal .modalcontent .detailsBox .emailbox .emailctn p {
+        font-size: 12px;
+    }
+
+    .familymodal .modalcontent .detailsBox .emailbox .emailctn p {
+        line-height: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .emailbox {
+        padding-bottom: 15px;
+        justify-content: space-between !important;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .mainReviewbox {
+        margin-top: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX img {
+        max-width: 20px;
+        width: 100%;
+    }
+
+    .familymodal .modalcontent .detailsBox .closeBOX {
+        top: 20px;
+        right: 20px;
+    }
+}
+
+@media (min-width:1281px) and (max-width:1600px) {
+    .modal.show .modal-dialog {
+        margin: 0 auto;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .reviewResponsiveDiv:nth-child(1) {
+        margin-top: 0px;
+    }
+
+    .familymodal .modalcontent .detailsBox .reviewMain .reviewResponsiveDiv {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .familymodal .modalcontent .detailsBox .title h1 {
+        font-size: 45px;
+        line-height: 50px;
+        margin-bottom: 15px !important;
+    }
+
+    .modal {
+        z-index: 1111 !important;
+    }
+}
+
+/*  ===>  Model CSS End  <===  */
+
+/*  ===>  ExecepteurInst Page CSS Start  <===  */
+
+@media (min-width:320px) and (max-width:551px) {
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .postingLinkmain,
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn {
+        flex-wrap: wrap;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .postingLinkmain,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox {
+        justify-content: center !important;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn {
+        justify-content: space-between !important;
+    }
+
+    .excepteurinstmainctn .taglinebox {
+        padding: 50px 0px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText h2 {
+        font-size: 19px;
+        height: 60px;
+        line-height: 30px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText p {
+        font-size: 13px;
+        height: 80px;
+        line-height: 26.66px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText {
+        margin-bottom: 50px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .mainSocialbox .postingLinkmain .PostingSocialmedia {
+        margin-left: 0px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineMainImg::after {
+        display: none;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent {
+        padding: 20px;
+        height: auto;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails {
+        padding-left: 0px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .postingLinkmain .postingLink {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox .hasectn {
+        margin-bottom: 12px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn:hover {
+        margin-top: 12px;
+        justify-content: center !important;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox h1,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink h1,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox h1 {
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .extraSmallContainer {
+        margin-top: 40px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogTitle h1 {
+        text-align: center;
+        font-size: 23px;
+        line-height: 32px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul {
+        padding: 20px;
+        height: auto;
+        margin-bottom: 0px;
+    }
+
+    .excepteurinstmainctn .ceoContent .bgimg .ceoCard {
+        padding: 72px 0px;
+        border-radius: 0px;
+    }
+
+    .excepteurinstmainctn .ourSpecialitiesbox .mainTitle {
+        font-size: 20px;
+        height: 40px;
+        line-height: 20px;
+        margin-bottom: 50px !important;
+    }
+
+    .ourSpecialitiesbox .specialitiescard .recruitment,
+    .ourSpecialitiesbox .specialitiescard .webDevelop,
+    .ourSpecialitiesbox .specialitiescard .website,
+    .ourSpecialitiesbox .specialitiescard .ecommerce {
+        font-size: 19px;
+        height: 27px;
+        line-height: 27px;
+    }
+
+    .ourSpecialitiesbox .specialitiescard {
+        margin-bottom: 20px;
+    }
+
+    .ourSpecialitiesbox .specialitiescard img {
+        margin-bottom: 30px;
+
+    }
+
+    .excepteurinstmainctn .ceoContent .bgimg .ceoCard .hex {
+        width: 50px;
+        height: 50px;
+        left: 22px;
+    }
+
+    .excepteurinstmainctn .ceoContent .bgimg .ceoCard p {
+        font-size: 20px;
+        height: 60px;
+        line-height: 30px;
+        margin-bottom: 25px !important;
+    }
+
+    .excepteurinstmainctn .ceoContent .bgimg .ceoCard h5 {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .excepteurinstmainctn .ceoContent .contectbox {
+        padding-top: 150px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul li {
+        font-size: 13px;
+        line-height: 27px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header h5 {
+        font-size: 12px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        height: 20px;
+        line-height: 20px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header {
+        padding: 22px 0px 16px 0px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox img {
+        margin-bottom: 46px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card-body {
+        height: 120px;
+        padding: 20px 20px 0px 20px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card-body p {
+        font-size: 13px;
+        line-height: 25px;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox p,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox p,
+    .excepteurinstmainctn .taglinebox .teglineText p {
+        font-size: 14px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurDetailstitle {
+        margin-top: 20px;
+        padding: 24px 30px 24px 30px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails p,
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails span {
+        font-size: 13px;
+        line-height: 20px;
+        text-align: center;
+        margin: 5px 0px 0px 0px !important;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails h4 {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    .excepteurinstmainctn .mainLinkBox a {
+        font-size: 12px;
+        white-space: nowrap;
+
+    }
+
+    .excepteurinstmainctn .mainLinkBox span {
+        margin: 0px 15px 0px 15px;
+    }
+
+    .excepteurinstmainctn .mainLinkBox span img {
+        width: 7px;
+    }
+
+    .excepteurinstmainctn .mainLinkBox {
+        overflow: hidden;
+
+        text-overflow: ellipsis;
+    }
+}
+
+@media (min-width:552px) and (max-width:768px) {
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+
+    .excepteurinstmainctn .taglinebox {
+        padding: 120px 50px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText h2 {
+        height: 70px;
+        line-height: 35px;
+        font-size: 24px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText p {
+        height: 80px;
+        line-height: 26.66px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText {
+        margin-bottom: 50px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineMainImg::after {
+        left: -22px;
+        top: auto;
+        bottom: -22px;
+    }
+
+    .excepteurinstmainctn .ourSpecialitiesbox .col-sm-6:nth-child(1),
+    .excepteurinstmainctn .ourSpecialitiesbox .col-sm-6:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .excepteurinstmainctn .ceoContent .bgimg .ceoCard {
+        padding: 80px 120px;
+        border-radius: 0px;
+    }
+
+    .excepteurinstmainctn .ceoContent .bgimg .ceoCard .hex {
+        width: 80px;
+        height: 60px;
+        left: 30px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox {
+        justify-content: center;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul {
+        padding: 20px;
+        margin-bottom: 0px;
+        height: auto;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header h5,
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card-body p,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul li,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox p,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox p,
+    .excepteurinstmainctn .taglinebox .teglineText p {
+        font-size: 14px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul li {
+        line-height: 26px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .extraSmallContainer {
+        margin-top: 40px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn {
+        justify-content: center;
+
+    }
+
+    .excepteurinstDtailsSection .relatedBlogTitle {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header {
+        padding: 22px 0px 16px 0px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink h1 {
+        margin-bottom: 0px !important;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox img {
+        margin-bottom: 46px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1080px) {
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent {
+        flex-wrap: wrap;
+        justify-content: center !important;
+
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .extraSmallContainer {
+        margin-top: 40px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogTitle {
+        text-align: center;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn {
+        justify-content: center;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox {
+        justify-content: center;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul {
+        margin-bottom: 0px;
+        padding: 20px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink h1 {
+        margin-bottom: 0px !important;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurtextBox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox,
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurimgbox img {
+        margin-bottom: 46px;
+    }
+
+    .excepteurinstmainctn .taglinebox {
+        padding: 132px 0px;
+    }
+
+    .excepteurinstmainctn .ourSpecialitiesbox .col-sm-6:nth-child(1),
+    .excepteurinstmainctn .ourSpecialitiesbox .col-sm-6:nth-child(2) {
+        margin-bottom: 30px;
+    }
+
+    .excepteurinstmainctn .taglinebox .row {
+        justify-content: center;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText p {
+        height: 80px;
+        line-height: 26.66px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText {
+        margin-bottom: 80px;
+    }
+
+    .excepteurinstmainctn .ceoContent .bgimg .ceoCard {
+        border-radius: 0px;
+    }
+}
+
+@media (min-width:1081px) and (max-width:1480px) {
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .xsContainer {
+        max-width: 875px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .extraSmallContainer {
+        max-width: 380px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineMainImg::after {
+        top: -15px;
+        left: 15px;
+    }
+
+    .excepteurinstmainctn .taglinebox .teglineText h2 {
+        font-size: 25px;
+        height: 80px;
+        line-height: 40px;
+    }
+
+    .ourSpecialitiesbox .specialitiescard .recruitment,
+    .ourSpecialitiesbox .specialitiescard .webDevelop,
+    .ourSpecialitiesbox .specialitiescard .website,
+    .ourSpecialitiesbox .specialitiescard .ecommerce {
+        font-size: 22px;
+        line-height: 25px;
+        height: 25px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogTitle h1 {
+        text-align: center;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogTitle {
+        margin-bottom: 18px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn:hover {
+        padding: 10px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails p,
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails span {
+        margin: 5px 0px 0px 0px !important;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent {
+        padding: 20px 30px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink ul {
+        margin-bottom: 0px;
+        padding: 20px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurdotlink h1 {
+        margin-bottom: 0px !important;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .collExcepteurbox #accordion .card .card-header h5 {
+        font-size: 17px;
+    }
+
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .excepteurinsthasebox {
+        justify-content: center;
+    }
+}
+
+@media (min-width:1481px) and (max-width:1680px) {
+    .excepteurinstmainctn .excepteurinstDtailsSection .excepteurinstContent .extraSmallContainer {
+        max-width: 500px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogTitle h1 {
+        text-align: center;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogTitle {
+        margin-bottom: 18px;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails p,
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn .relatedDetails span {
+        margin: 10px 0px 0px 0px !important;
+    }
+
+    .excepteurinstDtailsSection .relatedBlogContent .relatedCtn:hover {
+        padding: 15px;
+    }
+}
+
+/*  ===>  ExecepteurInst Page CSS End  <===  */

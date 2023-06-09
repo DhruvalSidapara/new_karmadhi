@@ -1,0 +1,1129 @@
+.TabConatiner {
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+}
+
+.OurProjectMain .MainTitle {
+    max-width: 710px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px !important;
+}
+
+.OurProjectMain .MainTitle .title {
+    text-align: center;
+}
+
+.OurProjectMain .MainTitle .title span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #1ab999;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.OurProjectMain .MainTitle .title span::before {
+    max-width: 46px;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    content: '';
+    background-color: #1ab999;
+    left: -55px;
+    top: 15px;
+}
+
+.OurProjectMain .MainTitle .title h2 {
+    line-height: 55px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: capitalize;
+}
+
+.OurProjectMain .MainTitle .MainDetailsBox p {
+    line-height: 32px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #b3b3b3;
+}
+
+.OurProjectMain .MainTitle .MainDetailsBox {
+    height: 64px;
+    margin-top: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: initial;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+
+.OurProjectMain .mainTabContent {
+    margin-top: 40px;
+}
+
+.OurProjectMain .mainTabContent .MainTab {
+    margin-bottom: 40px !important;
+    max-width: 667px;
+    margin: auto;
+    padding: 5px 0px;
+    border-radius: 100px;
+    box-shadow: rgb(17 17 26 / 10%) 0px 0px 16px
+}
+
+/* .OurProjectMain .mainTabContent .MainTab .nav-item.active:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+} */
+
+.OurProjectMain .mainTabContent .MainTab .nav-item.active:hover .nav-item {
+    color: #fff;
+}
+
+.OurProjectMain .mainTabContent .MainTab .nav-item.active {
+    color: #fff;
+    background-color: #1ab999;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    border-radius: 100px;
+}
+
+
+
+.OurProjectMain .mainTabContent .MainTab .nav-item {
+    color: #202020;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    /* font-weight: 500; */
+    transition: all 0.3s ease-in-out;
+    border-radius: 100px;
+    background-color: #fbfbfb;
+}
+
+.OurProjectMain .mainTabContent .MainTab .nav-item:nth-child(6) {
+    margin-right: 0px;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .GirdImgOne {
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .col-xl-6,
+.OurProjectMain .mainTabContent .TabConatiner .col-xl-3 {
+    padding-bottom: 30px;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .col-xl-6:nth-child(7),
+.OurProjectMain .mainTabContent .TabConatiner .col-xl-3:nth-child(8),
+.OurProjectMain .mainTabContent .TabConatiner .col-xl-3:nth-child(9) {
+    padding-bottom: 0px;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass .corporateTitle {
+    background-color: #1ab999;
+    padding: 8px 10px;
+    border-radius: 8px;
+    max-width: 315px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass .corporateTitle h2 {
+    font-size: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass .corporateTitle h2 a {
+    text-decoration: none;
+    color: #fff;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass .corporateSpan {
+    max-width: fit-content;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    padding: 0px 6px;
+    border-radius: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass .corporateSpan span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass .MiniGrid {
+    max-width: 200px;
+    height: 40px;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .HoverClass .miniCroprorateSpan {
+    max-width: fit-content;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .position-relative {
+    transition: all 0.3s ease-in-out;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .position-relative:hover {
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    border-radius: 12px;
+}
+
+
+
+.OurProjectMain .mainTabContent .TabConatiner .position-relative:hover .HoverClass {
+    opacity: 1;
+}
+
+.OurProjectMain .mainTabContent .TabConatiner .layer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #00264d;
+    opacity: 0.3;
+    border-radius: 12px;
+}
+
+/* Single Project CSS Start */
+
+.SingleProjectContainer {
+    max-width: 1170px;
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.SingleProjectContainer .imgBox {
+    margin-bottom: 20px;
+}
+
+.SingleProjectContainer .imgBox img {
+    width: 100%;
+    height: 690px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.SingleProjectContainer .titleBox {
+    height: 60px;
+    max-width: 600px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.SingleProjectContainer .titleBox h1 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #3d3d3d;
+}
+
+.SingleProjectContainer .ContentBox {
+    width: 100%;
+    background-color: #1ab999;
+    padding: 25px 30px;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.SingleProjectContainer .ContentBox .ContentMainBox .contentTitle {
+    height: 28px;
+}
+
+.SingleProjectContainer .ContentBox .ContentMainBox .contentTitle h2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.SingleProjectContainer .ContentBox .ContentMainBox .contentTitle h2::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #00264d;
+    border-radius: 50%;
+    top: 12px;
+    left: -15px;
+}
+
+.SingleProjectContainer .ContentBox .ContentMainBox .detailsBox {
+    margin-top: 15px;
+}
+
+.SingleProjectContainer .ContentBox .ContentMainBox .detailsBox p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.SingleProjectContainer .mainDetailsBox {
+    height: 246px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    margin-bottom: 40px;
+}
+
+.SingleProjectContainer .mainDetailsBox p {
+    margin-bottom: 16px !important;
+    line-height: 27px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3d3d3d;
+}
+
+.SingleProjectContainer .mainDetailsBox p label {
+    max-width: 40px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #1ab999;
+    margin-right: 10px !important;
+}
+
+.SingleProjectContainer .mainElementBox {
+    margin-bottom: 40px;
+
+}
+
+.SingleProjectContainer .mainElementBox .elementImgBox {
+    position: relative;
+}
+
+
+
+.SingleProjectContainer .mainElementBox .elementImgBox img {
+    max-width: 370px;
+    width: 100%;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.SingleProjectBG .singleDetailsBox {
+    margin-bottom: 40px;
+}
+
+.SingleProjectBG .singleDetailsBox .singleTitle {
+    height: 30px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+
+.SingleProjectBG .singleDetailsBox .singleTitle h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #3d3d3d;
+}
+
+.SingleProjectBG .singleDetailsBox .singleDetails {
+    height: 190px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.SingleProjectBG .singleDetailsBox .singleDetails p {
+    margin-bottom: 16px !important;
+    line-height: 22px;
+    font-size: 16px;
+    color: #3d3d3d;
+}
+
+
+.SingleProjectBG .singleDetailsBox .SecsingleDetails {
+    height: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+.SingleProjectBG .singleDetailsBox .SecsingleDetails p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #3d3d3d;
+}
+
+.SingleProjectBG .SingleProjectSlider {
+    margin-bottom: 50px;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide {
+    padding: 10px;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 12px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent {
+    width: 100%;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .imgBox,
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .quoteimgBox img {
+    max-width: 45px;
+    width: 100%;
+    height: 45px;
+    object-fit: cover;
+    margin: auto;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .SliderDetails {
+    max-width: 700px;
+    margin: auto;
+    height: 110px;
+    overflow: hidden;
+    margin-top: 10px !important;
+    text-align: center;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .SliderDetails p {
+    font-size: 19px;
+    line-height: 36px;
+    color: #616161;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .sliderTitle {
+    text-align: center;
+    margin-top: 34px;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .sliderTitle h3 {
+    font-size: 30px;
+    color: #202020;
+    line-height: 36px;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .sliderTitle p {
+    font-size: 14px;
+    color: #989898;
+    margin-top: 5px;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-prev {
+    left: 10%;
+    z-index: 11;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-prev::before {
+    content: '';
+    max-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../img/icone/leftarrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-next {
+    right: 10%;
+}
+
+.SingleProjectBG .SingleProjectSlider .slick-slider .slick-next::before {
+    content: '';
+    max-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../../img/icone/leftarrow.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    transform: rotate(180deg);
+}
+
+.SingleProjectBG .articleShareBox {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkTitle {
+    height: 20px;
+    overflow: hidden;
+    margin-right: 15px;
+    width: 100%;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkTitle h2 {
+    font-size: 18px;
+    color: #3d3d3d;
+    line-height: 20px;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkContent {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkContent .linkBox {
+    max-width: 30px;
+    width: 100%;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #1da1f2;
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkContent .linkBox.darkblue {
+    background-color: #3b5998;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkContent .linkBox.red {
+    background-color: #e40000;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkContent .linkBox.blue {
+    background-color: #007bb5;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkContent .linkBox:last-child {
+    margin-right: 0px;
+}
+
+.SingleProjectBG .articleShareBox .MainLinkBox .linkContent .linkBox i {
+    font-size: 14px;
+    color: #fff;
+}
+
+.SingleProjectBG .articleShareBox .SocialLinkBox {
+    width: 40%;
+}
+
+.SingleProjectBG .articleShareBox .SocialLinkBox .socialLink {
+    max-width: fit-content;
+    width: 100%;
+    padding: 5px 8px;
+    border-radius: 8px;
+    background-color: #fbfbfb;
+    margin-right: 10px;
+}
+
+
+
+.SingleProjectBG .articleShareBox .SocialLinkBox .socialLink span {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.SingleProjectBG .articleShareBox .SocialLinkBox .likeBox {
+    max-width: 45px;
+    height: 30px;
+    width: 100%;
+    padding: 0px 8px;
+    border-radius: 8px;
+    background-color: #1ab999;
+}
+
+.SingleProjectBG .articleShareBox .SocialLinkBox .likeBox span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 30px;
+    color: #fff;
+}
+
+.SingleProjectBG .articleShareBox .SocialLinkBox .likeBox span i {
+    font-size: 14px;
+}
+
+.SingleProjectBG .mobileSection {
+    margin-top: 50px;
+    width: 100%;
+    height: 130px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+
+}
+
+.SingleProjectBG .mobileSection .FirstSection {
+    background-color: #fbfbfb;
+    width: 50%;
+    height: 100%;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.SingleProjectBG .mobileSection .secondSection {
+    width: 50%;
+    height: 100%;
+    background-color: #1ab999;
+    border-radius: 0px 12px 12px 0px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileSectionTitle {
+    margin-right: 30px;
+    text-align: center;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileSectionTitle h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    color: #fff;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileSectionTitle span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileLink {
+    max-width: 75px;
+    width: 100%;
+    display: block;
+    height: 50px;
+    position: relative;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileLink::after {
+    position: absolute;
+    content: '';
+    right: 1px;
+    top: 20px;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #fff;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    transform: rotate(135deg);
+    display: block;
+    transition: 0.5s;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileLink::before {
+    position: absolute;
+    content: '';
+    top: 23px;
+    right: 0;
+    display: block;
+    width: 48px;
+    height: 1px;
+    border-bottom: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileLink:hover .Box {
+    left: 48px;
+}
+
+.SingleProjectBG .mobileSection .secondSection .mobileLink .Box {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    display: block;
+    position: absolute;
+    left: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.SingleProjectBG .relatedProjectSection {
+    margin-top: 60px;
+}
+
+.SingleProjectBG .relatedProjectSection .relatedProTitle {
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+.SingleProjectBG .relatedProjectSection .relatedProTitle h4 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.SingleProjectBG .relatedProjectSection .relatedImgsection .elementImgBox {
+    max-width: 370px;
+    width: 100%;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+
+.SingleProjectBG .relatedProjectSection .relatedImgsection .elementImgBox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.SingleProjectBG .relatedProjectSection .relatedImgsection .elementImgBox .HoverSection {
+    position: absolute;
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-right: 20px;
+    bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+/* Single Project CSS End */
+
+
+@media (min-width:320px) and (max-width:680px) {
+
+    .OurProjectMain .mainTabContent .TabConatiner .col-xl-6:nth-child(7),
+    .OurProjectMain .mainTabContent .TabConatiner .col-xl-3:nth-child(8),
+    .OurProjectMain .mainTabContent .TabConatiner .col-xl-3:nth-child(9) {
+        padding-bottom: 30px;
+    }
+
+    .OurProjectMain .MainTitle {
+        margin-top: 50px;
+    }
+
+    .OurProjectMain .MainTitle .title span {
+        font-size: 20px;
+    }
+
+    .OurProjectMain .MainTitle .title h2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .OurProjectMain .MainTitle .title span::before {
+        display: none;
+    }
+
+    .OurProjectMain .MainTitle .MainDetailsBox {
+        margin-top: 20px;
+        height: 50px;
+    }
+
+    .OurProjectMain .MainTitle .MainDetailsBox p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .OurProjectMain .mainTabContent {
+        margin-top: 30px;
+    }
+
+    .OurProjectMain .mainTabContent .MainTab .nav-item.active,
+    .OurProjectMain .mainTabContent .MainTab .nav-item {
+        margin-bottom: 10px;
+        margin-right: 0px;
+    }
+
+    .OurProjectMain .mainTabContent .MainTab .nav-item:nth-child(2n) {
+        margin-right: 0px;
+    }
+
+    .OurProjectMain .mainTabContent .MainTab .nav-item:nth-child(6) {
+        margin-bottom: 0px;
+    }
+
+    .OurProjectMain .mainTabContent .MainTab {
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        flex-direction: column;
+        /* justify-content: space-evenly !important; */
+        text-align: center;
+    }
+
+    .OurProjectMain .mainTabContent .TabConatiner .HoverClass .corporateTitle {
+        max-width: 100%;
+    }
+
+    .SingleProjectContainer .imgBox img {
+        height: 350px;
+    }
+
+    .SingleProjectContainer .titleBox {
+        height: 25px;
+    }
+
+    .SingleProjectContainer .titleBox h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .detailsBox p {
+        font-size: 14px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .detailsBox {
+        margin-top: 10px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .contentTitle {
+        height: 20px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .contentTitle h2 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .contentTitle h2,
+    .SingleProjectContainer .ContentBox .ContentMainBox .detailsBox {
+        text-align: center;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .contentTitle h2::before {
+        display: none;
+    }
+
+    .SingleProjectContainer .ContentBox .row .col-md-3 {
+        margin-bottom: 15px;
+    }
+
+    .SingleProjectContainer .ContentBox .row .col-md-3:last-child {
+        margin-bottom: 0px;
+    }
+
+    .SingleProjectContainer .mainDetailsBox {
+        height: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+    .SingleProjectContainer .mainDetailsBox p {
+        font-size: 14px;
+    }
+
+    .SingleProjectContainer .mainElementBox .elementImgBox img {
+        height: 250px;
+    }
+
+    .SingleProjectContainer .mainElementBox .row .col-md-4 {
+        margin-bottom: 15px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent {
+        height: 300px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .SliderDetails {
+        padding: 0px 15px;
+        text-align: center;
+        height: 80px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .SliderDetails p {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .sliderTitle h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .sliderTitle {
+        margin-top: 25px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .quoteimgBox img {
+        max-width: 48px;
+        width: 100%;
+        height: 48px;
+    }
+
+    .SingleProjectBG .articleShareBox {
+        flex-direction: column;
+    }
+
+    .SingleProjectBG .articleShareBox .MainLinkBox .linkTitle {
+        margin-right: 0px;
+    }
+
+    .SingleProjectBG .articleShareBox .MainLinkBox {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .SingleProjectBG .articleShareBox .MainLinkBox .linkTitle h2 {
+        font-size: 16px;
+    }
+
+    .SingleProjectBG .articleShareBox .SocialLinkBox {
+        width: 100%;
+        justify-content: center !important;
+    }
+
+    .SingleProjectBG .mobileSection .FirstSection {
+        display: none;
+    }
+
+    .SingleProjectBG .mobileSection .secondSection {
+        width: 100%;
+        padding: 20px 25px;
+        justify-content: space-between;
+    }
+
+    .SingleProjectBG .mobileSection .secondSection .mobileSectionTitle {
+        margin-right: 0px;
+    }
+
+    .SingleProjectBG .mobileSection .secondSection .mobileLink .Box {
+        width: 30px;
+        height: 30px;
+    }
+
+    .SingleProjectBG .mobileSection .secondSection .mobileLink {
+        height: 30px;
+    }
+
+    .SingleProjectBG .mobileSection .secondSection .mobileLink::before {
+        top: 14px;
+        right: 18px;
+    }
+
+    .SingleProjectBG .mobileSection .secondSection .mobileLink::after {
+        top: 11px;
+        right: 17px;
+    }
+
+    .SingleProjectBG .mobileSection .secondSection .mobileLink:hover .Box {
+        left: 40px;
+    }
+
+    .SingleProjectBG .singleDetailsBox .singleTitle {
+        margin-bottom: 20px;
+    }
+
+    .SingleProjectBG .singleDetailsBox .singleTitle h2 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .SingleProjectBG .singleDetailsBox .SecsingleDetails {
+        height: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+    }
+
+    .SingleProjectBG .singleDetailsBox .SecsingleDetails p {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .SingleProjectBG .singleDetailsBox .singleDetails {
+        height: 150px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+    }
+
+    .SingleProjectBG .singleDetailsBox .singleDetails p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+}
+
+@media (min-width:681px) and (max-width:991px) {
+
+    .OurProjectMain .mainTabContent .TabConatiner .col-xl-6:nth-child(7),
+    .OurProjectMain .mainTabContent .TabConatiner .col-xl-3:nth-child(8),
+    .OurProjectMain .mainTabContent .TabConatiner .col-xl-3:nth-child(9) {
+        padding-bottom: 30px;
+    }
+
+    .OurProjectMain .MainTitle {
+        margin-top: 50px;
+    }
+
+    .OurProjectMain .MainTitle .MainDetailsBox {
+        margin-top: 30px;
+        height: 60px;
+    }
+
+
+    .OurProjectMain .MainTitle .MainDetailsBox p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .SingleProjectBG .articleShareBox {
+        flex-direction: column;
+    }
+
+    .SingleProjectBG .articleShareBox .MainLinkBox,
+    .SingleProjectBG .articleShareBox .SocialLinkBox {
+        width: 50%;
+    }
+
+    .SingleProjectBG .articleShareBox .SocialLinkBox {
+        justify-content: center !important;
+        margin-top: 25px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent {
+        padding: 20px;
+        height: 300px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .SliderDetails {
+        text-align: center;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .SliderDetails p {
+        font-size: 17px;
+    }
+
+    .SingleProjectContainer .imgBox img {
+        height: 350px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .detailsBox p {
+        font-size: 12px;
+    }
+
+    .SingleProjectContainer .titleBox {
+        height: 48px;
+    }
+
+    .SingleProjectContainer .titleBox h1 {
+        font-size: 35px;
+        line-height: 48px;
+    }
+
+    .SingleProjectContainer .mainDetailsBox {
+        height: 200px;
+    }
+
+    .SingleProjectContainer .mainDetailsBox p,
+    .SingleProjectBG .singleDetailsBox .singleDetails p {
+        font-size: 14px;
+    }
+
+    .SingleProjectBG .singleDetailsBox .singleDetails p {
+        line-height: 26px;
+    }
+
+    .SingleProjectContainer .mainElementBox .elementImgBox img {
+        height: 250px;
+    }
+
+    .SingleProjectBG .singleDetailsBox .singleDetails {
+        height: 140px;
+    }
+
+    .SingleProjectBG .singleDetailsBox .SecsingleDetails p {
+        font-size: 14px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .contentTitle h2 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .detailsBox {
+        margin-top: 10px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .contentTitle {
+        height: 22px;
+    }
+
+    .SingleProjectContainer .ContentBox .ContentMainBox .contentTitle h2::before {
+        top: 8px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent .slidercontent .sliderTitle {
+        margin-top: 22px;
+    }
+}
+
+@media (min-width:992px) and (max-width:1280px) {
+    .SingleProjectContainer .imgBox img {
+        height: 400px;
+    }
+
+    .SingleProjectContainer .mainElementBox .elementImgBox img {
+        height: 300px;
+    }
+
+    .SingleProjectBG .SingleProjectSlider .slick-slider .slick-list .slick-track .slick-slide .sliderInnerContent {
+        height: 350px;
+    }
+}
